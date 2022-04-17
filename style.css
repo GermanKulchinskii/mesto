@@ -3,3 +3,10 @@
 @import url("./blocks/header/header.css");
 @import url("./blocks/header/__logo/header__logo.css");
 @import url("./blocks/header/__line/header__line.css");
+
+@import url("./blocks/profile/profile.css");
+@import url("./blocks/profile/__profileInfo/profileText.css");
+@import url("./blocks/profile/__avatar/profile__avatar.css");
+@import url("./blocks/profile/__profileInfo/profileInfo.css");
+@import url("./blocks/profile/__editButton/profile__editButton.css");
+@import url("./blocks/profile/__addButton/profile__addButton.css");

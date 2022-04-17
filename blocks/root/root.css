@@ -2,3 +2,7 @@ body {
     background-color: #000000;
     margin: 0;
 }
+
+main {
+    display: flex;
+}
