@@ -1,5 +1,9 @@
 .profile {
-    width: 68.75%;
-    margin: 3.2% auto;
-    height: 9%;
+    width: 68.75vw;
+    height: 18vh;
+    margin: 7vh auto;
+    min-height: 120px;
+    max-height: 25%;
+    display: flex;
+    flex-flow: row wrap;
 }

@@ -1,5 +1,6 @@
 .header {
-    margin: 3.7% auto 0 auto;
-    height: 6.1%;
-    width: 68.75%;
+    margin: 0 auto 0 auto;
+    height: auto;
+    width: 68.75vw;
+    padding-top: 3.7vh;
 }

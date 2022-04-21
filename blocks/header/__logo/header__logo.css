@@ -1,5 +1,7 @@
 .logo {
-    height: 2.7%;
-    width: 11%;
-    margin-bottom: 3.3%;
+    height: 5.5vh;
+    width: 11vw;
+    margin-bottom: 3.3vh;
+    min-height: 33px;
+    min-width: 142px;
 }

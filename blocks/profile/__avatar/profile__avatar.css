@@ -1,12 +1,15 @@
 .avatar {
-    height: 120px;
-    width: 120px;
-    position: relative;
-    float: left;
+    height: 100%;
+    width: auto;
+    min-height: 120px;
+    order: 1;
 }
 
 .photo {
+    vertical-align: center;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    min-height: 120px;
+    min-width: 120px;
+    height: 100%;
+    width: 100%;
 }
