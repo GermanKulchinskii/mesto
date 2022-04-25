@@ -10,3 +10,10 @@
 @import url("./blocks/profile/__profileInfo/profileInfo.css");
 @import url("./blocks/profile/__editButton/profile__editButton.css");
 @import url("./blocks/profile/__addButton/profile__addButton.css");
+
+@import url("blocks/editForm/editForm.css");
+@import url("blocks/editForm/__editFormContent/editForm__editFormContent.css");
+@import url("blocks/editForm/__editFormCloser/editForm__editFormCloser.css");
+@import url("blocks/editForm/__submitButton/__submitButton.css");
+@import url("blocks/editForm/__editField/editForm__editField1.css");
+@import url("blocks/editForm/__editField/editForm__editField2.css");

@@ -1,0 +1,38 @@
+.submitButton {
+    width: 80%;
+    height: 15%;
+    border-radius: 2px;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    margin: 10vh auto auto auto;
+    cursor: pointer;
+}
+
+.submit {
+    font-size: 18px;
+    font-family: Inter, serif;
+    margin: 0;
+    line-height: 50px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.submitButton:hover {
+    opacity: 80%;
+}

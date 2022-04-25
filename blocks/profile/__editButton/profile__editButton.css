@@ -1,11 +1,39 @@
-.editButton {
-    order: 3;
-    align-self: center;
-    margin-left: 12px;
-    padding-bottom: 35px;
+@media (max-width: 991px) {
+    .editButton {
+        cursor: pointer;
+        margin-top: 7px;
+        margin-left: 8px;
+    }
+
+    .rectangle {
+        width: 24px;
+        height: 24px;
+    }
 }
 
-.rectangle {
-    width: 24px;
-    height: 24px;
+@media (min-width: 991px) and (max-width: 1199px) {
+    .editButton {
+
+    }
+
+    .rectangle {
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .editButton {
+        margin-left: 12px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    .rectangle {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.rectangle:hover {
+    opacity: 50%;
 }

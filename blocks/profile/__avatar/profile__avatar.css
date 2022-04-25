@@ -1,15 +1,50 @@
 .avatar {
-    height: 100%;
-    width: auto;
     min-height: 120px;
-    order: 1;
+    min-width: 120px;
+    height: 130px;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photo {
-    vertical-align: center;
     border-radius: 50%;
-    min-height: 120px;
-    min-width: 120px;
     height: 100%;
     width: 100%;
+    min-height: 120px;
+    min-width: 120px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .avatar {}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .avatar {
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .avatar {
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .avatar {
+        height: 100%;
+        width: auto;
+        min-height: 120px;
+        order: 1;
+    }
+
+    .photo {
+        vertical-align: center;
+        border-radius: 50%;
+        min-height: 120px;
+        min-width: 120px;
+        height: 100%;
+        width: 100%;
+    }
 }

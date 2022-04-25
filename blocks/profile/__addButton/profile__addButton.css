@@ -1,6 +1,55 @@
 .addButton {
-    float: right;
-    padding-top: 25px;
-    order: 4;
+    height: 50px;
+    width: 282px;
+    min-height: 50px;
     margin-left: auto;
+    margin-right: auto;
 }
+
+.wideRectangle {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.mAddPic {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+    .addButton {
+        padding-top: 25px;
+        order: 4;
+        margin-left: auto;
+    }
+
+    .wideRectangle {
+        cursor: pointer;
+    }
+
+    .mAddPic {
+        display: none;
+    }
+}
+
+.wideRectangle:hover {
+    opacity: 50%;
+}
+
+.mAddPic:hover {
+    opacity: 50%;
+}
+

@@ -22,23 +22,24 @@
     </div>
 
     <div class="profileInfo">
-        <p class="name">Жак-Ив Кусто</p>
-        <p class="about">Исследователь океана</p>
-
-    </div>
-
-    <div class="editButton">
-        <img class="rectangle" src="./images/editButton.png" alt="">
+        <div class="profileText">
+            <p class="name">Жак-Ив Кусто</p>
+            <p class="job">Исследователь океана</p>
+        </div>
+        <div class="editButton">
+            <img class="rectangle" src="./images/editButton.png" alt="">
+        </div>
     </div>
 
     <div class="addButton">
         <img class="wideRectangle" src="./images/addButton.png" alt="">
+        <img class="mAddPic" src="./images/mAddPic.png" alt="">
     </div>
 </div>
-
+<!--
 <main>
 
-<!--
+
     <div class="elements">
         <div class="element">
             <img class="picturesRectangle" src="./images/picturesRectangle.png" alt="">
@@ -90,16 +91,32 @@
         </div>
     </div>
 -->
+<!--
 </main>
 
-<!--
+
 <footer class="footer">
     <img class="footerText" src="./images/footerImage.png" alt="">
 </footer>
-
-<div class="popUp">
-    <div class="popUpContent">da</div>
-</div>
 -->
+<div class="editForm">
+    <img class="editFormCloser" src="./images/closeIcon.png" alt="">
+    <div class="editFormContent">
+        <p class="editProfile">Редактировать профиль</p>
+        <div class="editField1">
+            <input class="editedText editName" type="text" value="">
+            <hr class="editLine">
+        </div>
+        <div class="editField2">
+            <input class="editedText editJob" type="text" value="">
+            <hr class="editLine">
+        </div>
+        <div class="submitButton">
+            <p class="submit">Сохранить</p>
+        </div>
+    </div>
+</div>
+
+<script src="./scripts/editButton.js"></script>
 </body>
 </html>

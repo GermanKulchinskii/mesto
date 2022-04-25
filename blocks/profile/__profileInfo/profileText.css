@@ -1,10 +1,29 @@
-.about {
+.name {
+    margin: 0;
+    font-size: 27px;
     color: #FFFFFF;
-    font-size: 18px;
 }
 
-.name {
+.job {
+    font-size: 14px;
     color: #FFFFFF;
-    font-size: 42px;
-    margin: 0;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media screen and (min-width: 1200px) {
+    .name {
+        color: #FFFFFF;
+        font-size: 42px;
+        margin: 0;
+    }
+
+    .job {
+        color: #FFFFFF;
+        font-size: 18px;
+    }
 }
