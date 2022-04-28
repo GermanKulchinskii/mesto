@@ -12,7 +12,9 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-
+    .editField2 {
+        margin-top: 4%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

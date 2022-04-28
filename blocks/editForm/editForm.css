@@ -1,9 +1,9 @@
 .editForm {
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 50%;
     margin-left: -42.5vw;
-    margin-top: -30vh;
+    margin-top: -35vh;
     height: 65vh;
     width: 85vw;
     font-family: Inter, serif;
@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-
+    .editForm { height: 80vh }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

@@ -12,16 +12,12 @@
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    .editButton {
+    .editButton {/* */}
 
-    }
-
-    .rectangle {
-
-    }
+    .rectangle {/* */}
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .editButton {
         margin-left: 12px;
         margin-top: 15px;
