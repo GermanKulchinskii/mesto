@@ -6,21 +6,16 @@
     color: #FFFFFF;
     text-align: center;
     border: none;
-    margin: 10vh auto auto auto;
+    margin: 6vh auto auto auto;
     cursor: pointer;
-}
-
-.submit {
     font-size: 18px;
     font-family: Inter, serif;
-    margin: 0;
-    line-height: 50px;
+    line-height: 2.7rem;
 }
 
+
 @media (min-width: 576px) and (max-width: 767px) {
-    .submit {
-        line-height: 40px;
-    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
