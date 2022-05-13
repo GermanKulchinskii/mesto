@@ -16,20 +16,36 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .editFormContent {
         min-height: 250px;
-        max-height: 300px;
+        max-height: 400px;
+        height: 75%;
+    }
+
+    .editProfile {
+        padding-top: 1.5rem;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .editFormContent {
-        height: 100%;
+        min-height: 200px;
+        max-height: 500px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .editFormContent {
+        height: 100%;
+    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 3839px) {
+    .editFormContent {
+        height: 100%;
+    }
+}
 
+@media (min-width: 3840px) {
+    .editProfile {
+        font-size: 4.5rem;
+    }
 }

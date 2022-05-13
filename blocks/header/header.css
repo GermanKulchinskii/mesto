@@ -18,11 +18,35 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header {
-
+        margin: 0 auto 0 auto;
+        height: auto;
+        width: 68.75vw;
+        padding-top: 3.7vh;
+        min-width: 660px;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 2559px) {
+    .header {
+        margin: 0 auto 0 auto;
+        height: auto;
+        width: 68.75vw;
+        padding-top: 3.7vh;
+        min-width: 660px;
+    }
+}
+
+@media (min-width: 2560px) and (max-width: 3839px) {
+    .header {
+        margin: 0 auto 0 auto;
+        height: auto;
+        width: 68.75vw;
+        padding-top: 3.7vh;
+        min-width: 660px;
+    }
+}
+
+@media (min-width: 3840px) {
     .header {
         margin: 0 auto 0 auto;
         height: auto;

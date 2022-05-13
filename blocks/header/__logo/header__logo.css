@@ -16,23 +16,43 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .logo {
-
+        height: 30px;
+        width: 120px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .logo {
-
+        height: 35px;
+        width: 150px;
+        padding-top: 1%;
+        padding-left: 0;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 2559px) {
     .logo {
         height: 35px;
         width: 150px;
         padding-top: 1%;
-        min-height: 35px;
-        min-width: 150px;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 2560px) and (max-width: 3839px) {
+    .logo {
+        height: 60px;
+        width: 250px;
+        padding-top: 1%;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 3840px) {
+    .logo {
+        height: 120px;
+        width: 500px;
+        padding-top: 1%;
         padding-left: 0;
     }
 }

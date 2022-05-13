@@ -19,7 +19,9 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .profile {
-
+        width: 68.75vw;
+        height: 18vh;
+        margin: 7vh auto;
     }
 }
 
@@ -28,7 +30,5 @@
         width: 68.75vw;
         height: 18vh;
         margin: 7vh auto;
-        display: flex;
-        flex-flow: row wrap;
     }
 }

@@ -9,23 +9,56 @@
     font-family: Inter, serif;
     display: none;
     max-height: 400px;
-    min-height: 250px;
+    min-height: 285px;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .editForm { height: 80vh }
+    .editForm {
+        height: 80vh;
+        max-height: 300px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .editForm {
-        height: 80vh;
+        height: 85vh;
+        max-height: none;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .editForm {
+        margin-left: -20vw;
+        margin-top: -29vh;
+        height: 85vh;
+        width: 40vw;
+    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 2559px) {
+    .editForm {
+        margin-left: -20vw;
+        margin-top: -29vh;
+        height: 85vh;
+        width: 40vw;
+    }
+}
 
+@media (min-width: 2560px) and (max-width: 3839px) {
+    .editForm {
+        margin-left: -15vw;
+        margin-top: -20vh;
+        height: 85vh;
+        width: 30vw;
+    }
+}
+
+@media (min-width: 3840px) {
+    .editForm {
+        margin-left: -15vw;
+        margin-top: -20vh;
+        height: 85vh;
+        width: 30vw;
+        max-height: 65rem;
+    }
 }

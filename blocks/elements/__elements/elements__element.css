@@ -1,0 +1,41 @@
+.element {
+    margin: 0 0 4rem 0;
+    width: 100%;
+    background-image: url("../../../images/picturesRectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 95%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .element {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto 2rem auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .element {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto 2rem auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .element {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto 2rem auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .element {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto 2rem auto;
+    }
+}

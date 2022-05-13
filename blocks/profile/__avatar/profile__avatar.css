@@ -27,7 +27,19 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .avatar {
+        height: 100%;
+        width: auto;
+        min-height: 120px;
+        float: left;
+    }
 
+    .photo {
+        vertical-align: center;
+        border-radius: 50%;
+        min-height: 120px;
+        min-width: 120px;
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -36,7 +48,7 @@
         height: 100%;
         width: auto;
         min-height: 120px;
-        order: 1;
+        float: left;
     }
 
     .photo {

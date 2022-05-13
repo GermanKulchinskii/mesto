@@ -1,0 +1,9 @@
+.nameOfPhoto {
+    font-family: Inter, serif;
+    margin: 8% 0 0 1.6rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}

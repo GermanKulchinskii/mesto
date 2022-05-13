@@ -4,6 +4,10 @@
     margin: 5vh auto 0;
     display: flex;
     justify-content: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 80vw;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -17,18 +21,35 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .profile {
-
-    }
-}
-
-@media screen and (min-width: 1200px) {
     .profileInfo {
         display: flex;
         font-family: Inter, serif;
         align-self: center;
-        order: 2;
+        float: left;
         margin-left: 30px;
         margin-top: 10px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 2559px) {
+    .profileInfo {
+        display: flex;
+        font-family: Inter, serif;
+        align-self: center;
+        float: left;
+        margin-left: 30px;
+        margin-top: 12px;
+        max-width: 25rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .profileInfo {
+        margin-top: 2rem;
+        display: flex;
+        font-family: Inter, serif;
+        align-self: center;
+        float: left;
+        margin-left: 3rem;
     }
 }

@@ -15,20 +15,32 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .logo {
+    .line {
 
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .logo {
-
+    .line {
+        margin-top: 2rem;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 2559px) {
     .line {
-        width: 100%;
-        margin-top: 3%;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 2560px) and (max-width: 3839px) {
+    .line {
+        margin-top: 3.5rem;
+    }
+}
+
+@media (min-width: 3840px) {
+    .line {
+        height: 3px;
+        margin-top: 7rem;
     }
 }

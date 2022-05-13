@@ -17,3 +17,11 @@
 @import url("blocks/editForm/__submitButton/__submitButton.css");
 @import url("blocks/editForm/__editField/editForm__editField1.css");
 @import url("blocks/editForm/__editField/editForm__editField2.css");
+
+@import url("./blocks/elements/elements.css");
+@import url("blocks/elements/__elements/elements__element.css");
+@import url("blocks/elements/__elements/elements__likeButton.css");
+@import url("blocks/elements/__elements/elements__nameOfPhoto.css");
+@import url("blocks/elements/__elements/elements__picture.css");
+
+@import url("./blocks/footer/footer.css");
