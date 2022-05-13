@@ -32,3 +32,17 @@ closeButton.addEventListener("click", function () {
     editName.value = ""
     editJob.value = ""
 })
+/* ???
+submitButton.addEventListener('submit', formSubmitHandler)
+
+function formSubmitHandler (evt) {
+    evt.preventDefault();
+
+    let newName = editName.value
+    let newJob = editJob.value
+
+    currentUserName = newName.textContent
+    currentUserJob = newJob.textContent
+
+}
+ */
