@@ -22,4 +22,5 @@
 
 .likeButton:hover {
     opacity: 70%;
+    cursor: pointer;
 }

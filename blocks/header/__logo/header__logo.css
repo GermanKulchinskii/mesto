@@ -30,29 +30,14 @@
     }
 }
 
-@media (min-width: 1200px) and (max-width: 2559px) {
+@media (min-width: 1200px) {
     .logo {
-        height: 35px;
-        width: 150px;
-        padding-top: 1%;
+        height: 5.25vh;
+        width: 22.8vh;
+        margin-top: 1%;
+        padding-top: 0;
         padding-left: 0;
-    }
-}
-
-@media (min-width: 2560px) and (max-width: 3839px) {
-    .logo {
-        height: 60px;
-        width: 250px;
-        padding-top: 1%;
-        padding-left: 0;
-    }
-}
-
-@media (min-width: 3840px) {
-    .logo {
-        height: 120px;
-        width: 500px;
-        padding-top: 1%;
-        padding-left: 0;
+        min-width: 142px;
+        min-height: 33px;
     }
 }

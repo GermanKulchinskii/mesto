@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mesto</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -26,9 +23,10 @@
             <p class="name">Жак-Ив Кусто</p>
             <p class="job">Исследователь океана</p>
         </div>
-        <div class="editButton">
-            <img class="rectangle" src="./images/editButton.png" alt="">
-        </div>
+    </div>
+
+    <div class="editButton">
+        <img class="rectangle" src="./images/editButton.png" alt="">
     </div>
 
     <div class="addButton">
@@ -85,7 +83,7 @@
 </main>
 
 <footer class="footer">
-    <img class="footerImg" src="./images/footerImage.png" alt="">
+    <p class="footerText">© 2020 Mesto Russia</p>
 </footer>
 
 <div class="editForm">
@@ -93,11 +91,15 @@
     <div class="editFormContent">
         <p class="editProfile">Редактировать профиль</p>
         <div class="editField1">
-            <input class="editedText editName" type="text" value="">
+            <label>
+                <input class="editedText editName" type="text" value="">
+            </label>
             <hr class="editLine">
         </div>
         <div class="editField2">
-            <input class="editedText editJob" type="text" value="">
+            <label>
+                <input class="editedText editJob" type="text" value="">
+            </label>
             <hr class="editLine">
         </div>
         <div class="submitButton">Сохранить</div>

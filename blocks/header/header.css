@@ -22,36 +22,16 @@
         height: auto;
         width: 68.75vw;
         padding-top: 3.7vh;
-        min-width: 660px;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 2559px) {
+@media (min-width: 1200px) {
     .header {
-        margin: 0 auto 0 auto;
-        height: auto;
+        height: 11.5vh;
         width: 68.75vw;
-        padding-top: 3.7vh;
-        min-width: 660px;
-    }
-}
-
-@media (min-width: 2560px) and (max-width: 3839px) {
-    .header {
-        margin: 0 auto 0 auto;
-        height: auto;
-        width: 68.75vw;
-        padding-top: 3.7vh;
-        min-width: 660px;
-    }
-}
-
-@media (min-width: 3840px) {
-    .header {
-        margin: 0 auto 0 auto;
-        height: auto;
-        width: 68.75vw;
-        padding-top: 3.7vh;
-        min-width: 660px;
+        margin: max(45px, 3.7vh) auto 0;
+        min-height: 74px;
+        min-width: 880px;
+        position: relative;
     }
 }

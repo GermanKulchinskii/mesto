@@ -24,42 +24,19 @@
     }
 }
 
-@media (min-width: 1200px) and (max-width: 2559px) {
+@media (min-width: 1200px) {
     .editButton {
-        margin-left: 12px;
-        margin-top: 10px;
-        cursor: pointer;
+        margin-left: 3%;
+        margin-top: 2.6%;
+        height: auto;
+        width: auto;
+        float: left;
     }
 
     .rectangle {
-        width: 24px;
-        height: 24px;
-    }
-}
-
-@media (min-width: 2560px) and (max-width: 3839px) {
-    .editButton {
-        margin-left: 1.5rem;
-        margin-top: 1.3rem;
+        width: 3.4vh;
+        height: 3.4vh;
         cursor: pointer;
-    }
-
-    .rectangle {
-        width: 36px;
-        height: 36px;
-    }
-}
-
-@media (min-width: 3840px) {
-    .editButton {
-        margin-left: 3rem;
-        margin-top: 2.6rem;
-        cursor: pointer;
-    }
-
-    .rectangle {
-        width: 72px;
-        height: 72px;
     }
 }
 
