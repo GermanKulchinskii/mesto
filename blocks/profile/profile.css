@@ -29,6 +29,8 @@
     .profile {
         width: 68.75vw;
         height: 18vh;
-        margin: 7vh auto;
+        margin: max(40px,7vh) auto max(51px,7.2vh) auto;
+        min-width: 880px;
+        min-height: 120px;
     }
 }

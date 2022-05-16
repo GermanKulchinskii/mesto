@@ -26,16 +26,16 @@
 
 @media (min-width: 1200px) {
     .editButton {
-        margin-left: 3%;
-        margin-top: 2.6%;
+        margin-left: max(18px, 3%);
+        margin-top: max(34px, 4.5vh);
         height: auto;
         width: auto;
         float: left;
     }
 
     .rectangle {
-        width: 3.4vh;
-        height: 3.4vh;
+        width: max(24px, 3.4vh);
+        height: max(24px, 3.4vh);
         cursor: pointer;
     }
 }

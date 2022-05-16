@@ -33,11 +33,12 @@
 
 @media (min-width: 1200px) {
     .profileInfo {
-        display: flex;
-        align-self: center;
+        display: grid;
         float: left;
-        margin-left: 3.5%;
-        margin-top: 1.5%;
-        max-width: 25vw;
+        margin-left: max(30px,3.5%);
+        margin-top: max(18px,1.5%);
+        min-height: 73px;
+        min-width: 300px;
+        text-align: left;
     }
 }
