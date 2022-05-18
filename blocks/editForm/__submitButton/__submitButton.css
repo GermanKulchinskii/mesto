@@ -32,8 +32,11 @@
 
 @media (min-width: 1200px) {
     .submitButton {
-        margin-top: 7vh;
-        line-height: 3.3rem;
+        width: max(358px, 83.3%);
+        height: max(50px, 15.15%);
+        margin-top: max(44px, 10.25%);
+        line-height: max(48px, 3vw);
+        font-size: max(18px, 1.2vw);
     }
 }
 

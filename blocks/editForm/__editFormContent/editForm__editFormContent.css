@@ -40,13 +40,14 @@
 
 @media (min-width: 1200px) {
     .editFormContent {
-        height: 91%;
-        min-height: 320px;
+        height: max(330px, 21.5vw);
     }
 
     .editProfile {
-        padding-top: 6.4%;
-        margin: 0;
-        font-size: 1.5rem;
+        width: max(358px, 83.25%);
+        text-align: left;
+        padding-top: max(34px, 8%);
+        margin: 0 auto;
+        font-size: max(24px, 1.6vw);
     }
 }

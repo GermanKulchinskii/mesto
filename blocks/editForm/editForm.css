@@ -37,10 +37,12 @@
 
 @media (min-width: 1200px) {
     .editForm {
-        margin-left: -17vw;
-        margin-top: -9.5%;
-        height: 51%;
-        width: 34%;
+        /*margin-left: -17vw;
+        margin-top: -9.5%;  */
+        margin-top: min(-140px, -10.65vw);
+        margin-left: min(-215px, -14vw);
+        height: max(370px,24.13vw);
+        width: max(430px, 28vw);
         max-height: none;
     }
 }

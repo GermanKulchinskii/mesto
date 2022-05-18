@@ -32,11 +32,12 @@
 
 @media (min-width: 1200px) {
     .editField2 {
-        margin-top: 5.6%;
-        height: 8%;
+        margin-top: max(30px, 7%);
+        height: max(27px, 8.3%);
+        width: max(358px, 83.3%);
     }
 
     .editedText {
-        font-size: 2vh;
+        font-size: max(14px, 1vw);
     }
 }
