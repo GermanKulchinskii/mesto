@@ -34,8 +34,9 @@
 @media (min-width: 1200px) {
     .picture {
         width: 100%;
-        height: 80%;
+        height: max(282px, 22.033vw);
         max-width: none;
         max-height: none;
+        border-radius: max(10px,0.8vw) max(10px, 0.8vw) 0 0;
     }
 }

@@ -1,11 +1,11 @@
 .name {
     margin: 0;
-    font-size: 27px;
+    font-size: 8.44vw;
     color: #FFFFFF;
 }
 
 .job {
-    font-size: 14px;
+    font-size: 4.375vw;
     color: #FFFFFF;
     font-weight: 400;
 }
@@ -36,14 +36,14 @@
 
 @media (min-width: 1200px) {
     .name {
-        font-size: max(42px, 6vh);
+        font-size: max(42px, 2.7vw);
         margin: 0;
-        max-width: 23vw;
+        max-width: 40vw;
     }
 
     .job {
-        font-size: max(19px ,2.9vh);
-        margin: max(16px, 1.6vh) 0 0 0;
+        font-size: max(18px ,1.2vw);
+        margin: max(16px, 1.05vw) 0 0 0;
         max-width: 26vw;
     }
 }

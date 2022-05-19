@@ -1,5 +1,5 @@
 .footer {
     width: 68.75vw;
-    margin: 1.6rem auto 0 auto;
+    margin: max(67px, 5.238vw) auto 0 auto;
 
 }

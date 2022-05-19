@@ -55,13 +55,11 @@
 
 @media (min-width: 1200px) {
     .addButton {
-        margin-top: max(30px, 2.9vh);
+        margin-top: max(30px, 1.96vw);
         float: right;
-        height: 7.14vh;
-        width: 21.35vh;
+        height: max(50px, 3.26vw);
+        width: max(150px ,9.77vw);
         max-width: none;
-        min-width: 150px;
-        min-height: 50px;
     }
 
     .desktopAddButton {

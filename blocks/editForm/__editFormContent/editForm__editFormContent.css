@@ -41,6 +41,7 @@
 @media (min-width: 1200px) {
     .editFormContent {
         height: max(330px, 21.5vw);
+        border-radius: max(10px, 0.8vw);
     }
 
     .editProfile {

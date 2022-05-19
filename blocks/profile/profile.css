@@ -1,7 +1,7 @@
 .profile {
-    width: 90%;
+    width: 88.126vw;
     height: auto;
-    margin: 8% auto 0;
+    margin: 13.125vw auto 0;
     display: block;
 }
 
@@ -27,10 +27,8 @@
 
 @media (min-width: 1200px) {
     .profile {
-        width: 68.75vw;
-        height: 18vh;
-        margin: max(40px,7vh) auto max(51px,7.2vh) auto;
-        min-width: 880px;
-        min-height: 120px;
+        width: max(880px ,68.75vw);
+        height: max(120px, 7.85vw);
+        margin: max(40px,2.65vw) auto max(51px,3.33vw) auto;
     }
 }

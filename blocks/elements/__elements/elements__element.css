@@ -1,11 +1,10 @@
 .element {
     margin: 0 0 4rem 0;
     width: 100%;
-    background-image: url("../../../images/picturesRectangle.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-radius: 8px;
     height: 95%;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -34,8 +33,9 @@
 
 @media (min-width: 1200px) {
     .element {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto 2rem auto;
+        height: max(361px, 28.2vw);
+        width: max(282px, 22.033vw);
+        border-radius: max(10px, 0.8vw);
+        margin: 0;
     }
 }

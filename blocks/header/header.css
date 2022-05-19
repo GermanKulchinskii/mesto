@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: max(28px, 8.75vw) 0 0 0;
     height: auto;
 }
 
@@ -27,11 +27,9 @@
 
 @media (min-width: 1200px) {
     .header {
-        height: 11.5vh;
-        width: 68.75vw;
+        height: max(74px, 4.82vw);
+        width: max(880px, 68.75vw);
         margin: max(45px, 3.7vh) auto 0;
-        min-height: 74px;
-        min-width: 880px;
         position: relative;
     }
 }
