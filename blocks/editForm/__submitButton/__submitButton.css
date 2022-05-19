@@ -1,16 +1,16 @@
 .submitButton {
-    width: 80%;
-    height: 15%;
+    width: 74.375vw;
+    height: 14.375vw;
     border-radius: 2px;
     background-color: black;
     color: #FFFFFF;
     text-align: center;
     border: none;
-    margin: 2.5rem auto auto auto;
+    margin: 14.0625vw auto auto auto;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 5.625vw;
     font-weight: 400;
-    line-height: 2.7rem;
+    line-height: 14vw;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

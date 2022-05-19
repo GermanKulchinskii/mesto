@@ -1,9 +1,12 @@
 .nameOfPhoto {
     font-family: 'Inter', sans-serif;
-    margin: 8% 0 0 1.6rem;
-    font-size: 1.5rem;
+    margin: 6vw 0 0 6.5625vw;
+    font-size: 7.38vw;
     font-weight: 900;
     font-style: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -13,7 +16,6 @@
 @media (min-width: 1200px) {
     .nameOfPhoto {
         margin: max(16px, 1.256vw) 0 0 max(21px, 1.642vw);
-        color: black;
         font-size: max(24px, 1.916vw);
         max-width: 75%;
     }

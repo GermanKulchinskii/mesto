@@ -1,9 +1,10 @@
 .elements {
-    width: 80%;
-    max-width: 350px;
-    margin: 0 auto 0 auto;
+    width: 88.125vw;
+    height: 708.75vw;
+    margin: 11.25vw auto 0 auto;
     display: grid;
-    min-width: 220px;
+    grid-row-gap: 6.25vw;
+    grid-template-columns: 1fr;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -40,9 +41,9 @@
     .elements {
         grid-template-columns: 1fr 1fr 1fr;
         width: max(880px, 68.75vw);
-        max-width: none;
         height: max(744px, 58.13vw);
         grid-column-gap: max(17px, 1.328vw);
         grid-row-gap: max(20px, 1.56vw);
+        margin-top: 0;
     }
 }

@@ -1,6 +1,16 @@
+.editButton {
+    height: auto;
+    width: auto;
+}
+
+.rectangle {
+    height: 5.625vw;
+    width: 5.625vw;
+    cursor: pointer;
+}
+
 @media (max-width: 991px) {
     .editButton {
-        cursor: pointer;
         margin-top: 7px;
         margin-left: 8px;
     }
@@ -15,7 +25,6 @@
     .editButton {
         margin-left: 12px;
         margin-top: 10px;
-        cursor: pointer;
     }
 
     .rectangle {
@@ -27,16 +36,13 @@
 @media (min-width: 1200px) {
     .editButton {
         margin-left: max(18px, 3%);
-        margin-top: max(30px, 1.9vw);
-        height: auto;
-        width: auto;
-        float: left;
+        margin-top: max(15px, 1.177vw);
+        margin-right: 20px;
     }
 
     .rectangle {
         width: max(24px, 1.565vw);
         height: max(24px, 1.565vw);
-        cursor: pointer;
     }
 }
 

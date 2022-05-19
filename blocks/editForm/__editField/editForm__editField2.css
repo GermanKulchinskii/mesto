@@ -1,6 +1,6 @@
 .editField2 {
-    margin-top: 7%;
-    width: 80%;
+    margin-top: 9.375vw;
+    width: 74.375vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -8,8 +8,11 @@
 .editedText {
     width: 100%;
     border: none;
-    font-size: 20px;
+    font-size: 4.375vw;
     font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

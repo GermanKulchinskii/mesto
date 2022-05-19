@@ -2,12 +2,18 @@
     margin: 0;
     font-size: 8.44vw;
     color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .job {
     font-size: 4.375vw;
     color: #FFFFFF;
     font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -38,12 +44,15 @@
     .name {
         font-size: max(42px, 2.7vw);
         margin: 0;
-        max-width: 40vw;
+        max-width: max(290px, 22.66vw);
+        text-align: left;
     }
 
     .job {
         font-size: max(18px ,1.2vw);
         margin: max(16px, 1.05vw) 0 0 0;
-        max-width: 26vw;
+        max-width: max(350px, 27.34vw);
+        text-align: left;
+        float: left;
     }
 }

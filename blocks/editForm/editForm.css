@@ -2,14 +2,12 @@
     position: fixed;
     top: 40%;
     left: 50%;
-    margin-left: -42.5vw;
-    margin-top: -35vh;
-    height: 85vh;
-    width: 85vw;
+    margin-left: -44vw;
+    margin-top: -43vw;
+    height: 111.875vw;
+    width: 88.125vw;
     font-family: 'Inter', sans-serif;
     display: none;
-    max-height: 400px;
-    min-height: 285px;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -37,12 +35,9 @@
 
 @media (min-width: 1200px) {
     .editForm {
-        /*margin-left: -17vw;
-        margin-top: -9.5%;  */
         margin-top: min(-140px, -10.65vw);
         margin-left: min(-215px, -14vw);
         height: max(370px,24.13vw);
         width: max(430px, 28vw);
-        max-height: none;
     }
 }
