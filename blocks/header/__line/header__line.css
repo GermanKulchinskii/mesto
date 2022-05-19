@@ -5,12 +5,11 @@
     opacity: 70%;
     background-color: #545454;
     color: #545454;
-    margin-top: 9.875vw;
+    margin-top: max(31px, 9.875vw);
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .line {
-        margin-top: 2%;
     }
 }
 

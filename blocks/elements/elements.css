@@ -1,9 +1,9 @@
 .elements {
-    width: 88.125vw;
-    height: 708.75vw;
-    margin: 11.25vw auto 0 auto;
+    width: max(282px, 88.125vw);
+    height: auto;
+    margin: max(36px, 11.25vw) auto 0 auto;
     display: grid;
-    grid-row-gap: 6.25vw;
+    grid-row-gap: max(20px, 6.25vw);
     grid-template-columns: 1fr;
 }
 

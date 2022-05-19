@@ -1,7 +1,7 @@
 .nameOfPhoto {
     font-family: 'Inter', sans-serif;
-    margin: 6vw 0 0 6.5625vw;
-    font-size: 7.38vw;
+    margin: max(20px, 6vw) 0 0 max(21px, 6.5625vw);
+    font-size: max(24px, 7.38vw);
     font-weight: 900;
     font-style: normal;
     text-overflow: ellipsis;

@@ -2,8 +2,8 @@
     float: right;
     background-color: #FFFFFF;
     border: none;
-    margin-top: 9.375vw;
-    margin-right: 9.375vw;
+    margin-top: max(30px, 9.375vw);
+    margin-right: max(20px ,9.375vw);
     width: max(22px, 6.875vw);
     height: max(19px, 5.9375vw);
 }

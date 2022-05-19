@@ -1,7 +1,7 @@
 .profile {
-    width: 88.126vw;
+    width: max(282px, 88.126vw);
     height: auto;
-    margin: 13.125vw auto 0;
+    margin: max(28px, 13.125vw) auto 0;
     display: block;
 }
 

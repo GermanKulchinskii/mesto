@@ -1,6 +1,7 @@
 .footer {
-    width: 88.125vw;
+    width: max(282px, 88.125vw);
     margin: 0 auto;
+    padding-bottom: 2vw;
 }
 
 @media (min-width: 1200px) {

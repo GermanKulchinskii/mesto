@@ -1,7 +1,7 @@
 .addButton {
-    width: 88.125vw;
-    height: 15.625vw;
-    margin: 11.25vw auto 0;
+    width: max(282px, 88.125vw);
+    height: auto;
+    margin: max(36px, 11.25vw) auto 0;
 }
 
 .desktopAddButton {

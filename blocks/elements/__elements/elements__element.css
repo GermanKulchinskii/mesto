@@ -1,6 +1,6 @@
 .element {
-    width: 88.125vw;
-    height: 112.8125vw;
+    width: max(282px, 88.125vw);
+    height: max(361px, 112.8125vw);
     background-color: #FFFFFF;
     border-radius: 10px;
 }

@@ -4,8 +4,8 @@
 }
 
 .rectangle {
-    height: 5.625vw;
-    width: 5.625vw;
+    width: max(18px, 5.625vw);
+    height: auto;
     cursor: pointer;
 }
 

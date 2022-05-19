@@ -1,6 +1,6 @@
 .avatar {
-    height: 37.5vw;
-    width: 37.5vw;
+    height: auto;
+    width: max(120px, 37.5vw);
     margin: 0 auto;
 }
 
@@ -8,8 +8,6 @@
     border-radius: 50%;
     height: 100%;
     width: 100%;
-    min-height: 120px;
-    min-width: 120px;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
