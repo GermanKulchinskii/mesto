@@ -1,36 +1,13 @@
 .editFormCloser {
-    width: 6.25vw;
+    width: max(20px, 6.25vw);
     height: auto;
-    margin-left: 81.875vw;
-    margin-bottom: 2.81vh;
+    margin-left: max(262px, 81.875vw);
 }
 
 .editFormCloserPic {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     cursor: pointer;
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .editFormCloserPic {
-        height: 30px;
-        width: 30px;
-    }
-
-    .editFormCloser {
-        margin-bottom: 0.7rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .editFormCloserPic {
-        height: 2rem;
-        width: 2rem;
-    }
-
-    .editFormCloser {
-        margin-bottom: 0.7rem;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

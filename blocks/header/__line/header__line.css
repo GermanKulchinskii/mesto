@@ -8,20 +8,15 @@
     margin-top: max(31px, 9.875vw);
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .line {
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     .line {
-
+        height: 2px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .line {
-        margin-top: 2rem;
+        height: 2px;
     }
 }
 

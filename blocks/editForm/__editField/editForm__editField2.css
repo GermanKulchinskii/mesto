@@ -1,6 +1,6 @@
 .editField2 {
     margin-top: 5.3vh;
-    width: 74.375vw;
+    width: max(238px, 74.375vw);
     margin-left: auto;
     margin-right: auto;
 }
@@ -8,23 +8,11 @@
 .editedText {
     width: 100%;
     border: none;
-    font-size: 4.375vw;
+    font-size: max(14px, 4.375vw);
     font-weight: 400;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .editField2 {
-        margin-top: 1.5rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .editField2 {
-        margin-top: 2.5rem;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

@@ -1,5 +1,5 @@
 .submitButton {
-    width: 74.375vw;
+    width: max(238px, 74.375vw);
     height: auto;
     border-radius: 2px;
     background-color: black;
@@ -8,7 +8,7 @@
     border: none;
     margin: 7.92vh auto auto auto;
     cursor: pointer;
-    font-size: 5.625vw;
+    font-size: max(18px, 5.625vw);
     font-weight: 400;
     line-height: 14vw;
 }
@@ -18,17 +18,6 @@
     background-color: #FFFFFF;
     width: 80%;
     margin: 0 auto;
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .submitButton {
-        margin-top: 5rem;
-        line-height: 4.5rem;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

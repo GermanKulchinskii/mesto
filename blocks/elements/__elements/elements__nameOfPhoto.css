@@ -9,10 +9,6 @@
     overflow: hidden;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
-
 @media (min-width: 1200px) {
     .nameOfPhoto {
         margin: max(16px, 1.256vw) 0 0 max(21px, 1.642vw);

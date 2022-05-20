@@ -2,34 +2,21 @@
     background-color: #FFFFFF;
     border-radius: 10px;
     height: auto;
-    width: 88.125vw;
+    width: max(282px, 88.125vw);
 }
 
 .editProfile {
     width: 74.375vw;
     padding-top: 8%;
     text-align: left;
-    font-size: 5.3vw;
+    font-size: max(17px, 5.3vw);
     font-weight: 900;
     margin: 0 auto;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .editFormContent {
-        min-height: 250px;
-        max-height: 400px;
-        height: 75%;
-    }
-
-    .editProfile {
-        padding-top: 1.5rem;
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     .editFormContent {
-        min-height: 200px;
-        max-height: 500px;
+        border-radius: 20px;
     }
 }
 

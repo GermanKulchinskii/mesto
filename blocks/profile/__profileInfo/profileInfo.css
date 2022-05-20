@@ -13,26 +13,6 @@
     justify-content: center;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .profileInfo {}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .photo {
-
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .profileInfo {
-        display: flex;
-        align-self: center;
-        float: left;
-        margin-left: 30px;
-        margin-top: 10px;
-    }
-}
-
 @media (min-width: 1200px) {
     .profileInfo {
         display: grid;

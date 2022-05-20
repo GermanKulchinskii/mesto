@@ -13,12 +13,6 @@
     width: 100%;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .likeButton {
-
-    }
-}
-
 @media (min-width: 1200px) {
     .likeButton {
         margin: max(28px, 2.19vw) max(20px, 1.566vw) 0 0;

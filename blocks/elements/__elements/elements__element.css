@@ -5,19 +5,9 @@
     border-radius: 10px;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .element {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto 2rem auto;
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     .element {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto 2rem auto;
+        border-radius: 20px;
     }
 }
 

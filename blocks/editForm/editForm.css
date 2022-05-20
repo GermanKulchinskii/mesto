@@ -8,20 +8,7 @@
     width: 88.125vw;
     font-family: 'Inter', sans-serif;
     display: none;
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .editForm {
-        height: 80vh;
-        max-height: 300px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .editForm {
-        height: 85vh;
-        max-height: none;
-    }
+    min-width: 282px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

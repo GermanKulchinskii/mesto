@@ -1,28 +1,8 @@
 .profile {
-    width: max(282px, 88.126vw);
+    width: max(282px, 88.125vw);
     height: auto;
     margin: max(28px, 13.125vw) auto 0;
     display: block;
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .profile {
-        margin-top: 6%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .profile {
-
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .profile {
-        width: 68.75vw;
-        height: 18vh;
-        margin: 7vh auto;
-    }
 }
 
 @media (min-width: 1200px) {

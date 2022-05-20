@@ -4,25 +4,8 @@
     height: auto;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .header {
-
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .header {
-
-    }
-}
-
 @media (min-width: 992px) and (max-width: 1199px) {
-    .header {
-        margin: 0 auto 0 auto;
-        height: auto;
-        width: 68.75vw;
-        padding-top: 3.7vh;
-    }
+
 }
 
 @media (min-width: 1200px) {

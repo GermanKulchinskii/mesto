@@ -4,31 +4,6 @@
     width: max(104px, 32.42vw);
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .logo {
-        padding-top: 2%;
-        padding-left: 5%;
-        height: 24px;
-        width: 100px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .logo {
-        height: 30px;
-        width: 120px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .logo {
-        height: 35px;
-        width: 150px;
-        padding-top: 1%;
-        padding-left: 0;
-    }
-}
-
 @media (min-width: 1200px) {
     .logo {
         height: max(33px, 2.15vw);

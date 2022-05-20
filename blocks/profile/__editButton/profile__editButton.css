@@ -1,36 +1,14 @@
 .editButton {
     height: auto;
     width: auto;
+    margin-top: max(10px, 1.7vw);
+    margin-left: max(10px, 1.7vw);
 }
 
 .rectangle {
     width: max(18px, 5.625vw);
     height: auto;
     cursor: pointer;
-}
-
-@media (max-width: 991px) {
-    .editButton {
-        margin-top: 7px;
-        margin-left: 8px;
-    }
-
-    .rectangle {
-        width: 24px;
-        height: 24px;
-    }
-}
-
-@media (min-width: 991px) and (max-width: 1199px) {
-    .editButton {
-        margin-left: 12px;
-        margin-top: 10px;
-    }
-
-    .rectangle {
-        width: 24px;
-        height: 24px;
-    }
 }
 
 @media (min-width: 1200px) {
