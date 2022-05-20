@@ -13,10 +13,10 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .editForm {
-        margin-left: -20vw;
-        margin-top: -29vh;
-        height: 85vh;
-        width: 40vw;
+        margin-top: min(-108px, -10.65vw);
+        margin-left: min(-166px, -14vw);
+        height: max(286px,24.13vw);
+        width: max(333px, 28vw);
     }
 }
 

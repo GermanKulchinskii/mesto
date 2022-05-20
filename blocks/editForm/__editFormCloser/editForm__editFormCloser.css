@@ -12,12 +12,15 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .editFormCloser {
-        margin-left: 96%;
+        margin-left: max(340px, 28.55vw);
+        margin-bottom: max(7px, 0.525vw);
+        height: max(25px, 2.09vw);
+        width: auto;
     }
 
     .editFormCloserPic {
-        height: 2rem;
-        width: 2rem;
+        height: max(32px, 2.09vw);
+        width: max(32px, 2.09vw);
     }
 }
 

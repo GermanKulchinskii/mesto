@@ -17,7 +17,13 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .editField2 {
-        margin-top: 2rem;
+        margin-top: max(24px, 7%);
+        height: max(21px, 8.3%);
+        width: max(278px, 83.3%);
+    }
+
+    .editedText {
+        font-size: max(14px, 1vw);
     }
 }
 

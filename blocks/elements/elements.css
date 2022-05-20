@@ -10,9 +10,11 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     .elements {
         grid-template-columns: 1fr 1fr;
-        width: 40.9375vw;
-        max-width: none;
-        grid-column-gap: 6.25vw;
+        width: max(682px, 68.75vw);
+        height: auto;
+        grid-column-gap: max(20px, 2vw);
+        grid-row-gap: max(20px, 2vw);
+        margin-top: 0;
     }
 }
 
@@ -21,8 +23,15 @@
         grid-template-columns: 1fr 1fr 1fr;
         width: max(880px, 68.75vw);
         height: max(744px, 58.13vw);
-        grid-column-gap: max(17px, 1.328vw);
-        grid-row-gap: max(20px, 1.56vw);
+        grid-column-gap: max(17px, 1.328%);
+        grid-row-gap: max(20px, 1.56%);
         margin-top: 0;
+        max-width: 1320px;
+        max-height: 1117px;
+    }
+
+    main {
+        width: 1320px;
+        margin: 0 auto;
     }
 }

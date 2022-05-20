@@ -22,18 +22,29 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .editFormContent {
-        height: 100%;
+        height: max(256px, auto);
+        border-radius: max(10px, 0.8vw);
+        width: max(333px, 100%);
+    }
+
+    .editProfile {
+        width: max(256px, 83.25%);
+        text-align: left;
+        padding-top: max(26px, 8%);
+        margin: 0 auto;
+        font-size: max(19px, 1.6vw);
     }
 }
 
 @media (min-width: 1200px) {
     .editFormContent {
-        height: max(330px, 21.5vw);
+        height: max(330px, auto);
         border-radius: max(10px, 0.8vw);
+        width: max(430px, 100%);
     }
 
     .editProfile {
-        width: max(358px, 83.25%);
+        width: max(330px, 83.25%);
         text-align: left;
         padding-top: max(34px, 8%);
         margin: 0 auto;

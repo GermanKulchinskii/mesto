@@ -5,10 +5,20 @@
     display: block;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .profile {
+        width: max(682px ,68.75vw);
+        height: max(93px, 7.85vw);
+        margin: max(31px,2.65vw) auto max(40px,3.33vw) auto;
+    }
+}
+
 @media (min-width: 1200px) {
     .profile {
         width: max(880px ,68.75vw);
         height: max(120px, 7.85vw);
-        margin: max(40px,2.65vw) auto max(51px,3.33vw) auto;
+        margin: 45px auto 56px auto;
+        max-width: 1320px;
+        max-height: 150px;
     }
 }

@@ -11,16 +11,32 @@
     cursor: pointer;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .editButton {
+        margin-left: max(14px, 3%);
+        margin-top: max(12px, 1.177vw);
+    }
+
+    .rectangle {
+        width: max(18px, 1.565vw);
+        height: max(18px, 1.565vw);
+    }
+}
+
 @media (min-width: 1200px) {
     .editButton {
+        width: max(24px, 1.565vw);
+        height: max(24px, 1.565vw);
+        max-width: 30px;
+        max-height: 30px;
         margin-left: max(18px, 3%);
-        margin-top: max(15px, 1.177vw);
+        margin-top: 15px;
         margin-right: 20px;
     }
 
     .rectangle {
-        width: max(24px, 1.565vw);
-        height: max(24px, 1.565vw);
+        width: auto;
+        height: auto;
     }
 }
 

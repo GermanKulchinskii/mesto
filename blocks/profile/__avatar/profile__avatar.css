@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .avatar {
         height: 100%;
         width: auto;
@@ -21,8 +21,23 @@
 
     .photo {
         border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .avatar {
+        height: 100%;
+        width: auto;
         min-height: 0;
+        float: left;
         min-width: 0;
+        max-height: 150px;
+    }
+
+    .photo {
+        border-radius: 50%;
         height: 100%;
         width: 100%;
     }

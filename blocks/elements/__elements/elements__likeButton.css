@@ -13,11 +13,21 @@
     width: 100%;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .likeButton {
+        margin: max(21px, 2.19vw) max(16px, 1.566vw) 0 0;
+        width: max(26px, 1.723vw);
+        height: max(17px,  1.49vw);
+    }
+}
+
 @media (min-width: 1200px) {
     .likeButton {
-        margin: max(28px, 2.19vw) max(20px, 1.566vw) 0 0;
+        margin: 35px 25px 0 0;
         width: max(22px, 1.723vw);
         height: max(19px,  1.49vw);
+        max-height: 26px;
+        max-width: 25px;
     }
 }
 

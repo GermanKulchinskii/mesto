@@ -16,19 +16,38 @@
     overflow: hidden;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .name {
-        font-size: max(42px, 2.7vw);
+        font-size: max(32px, 2.7vw);
         margin: 0;
-        max-width: max(290px, 22.66vw);
+        max-width: max(224px, 22.66vw);
         text-align: left;
     }
 
     .job {
-        font-size: max(18px ,1.2vw);
-        margin: max(16px, 1.05vw) 0 0 0;
-        max-width: max(350px, 27.34vw);
+        font-size: max(14px ,1.2vw);
+        margin: max(12px, 1.05vw) 0 0 0;
+        max-width: max(271px, 27.34vw);
         text-align: left;
         float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .name {
+        font-size: max(42px, 100%);
+        margin: 0;
+        max-width: max(290px, 90%);
+        text-align: left;
+        max-height: 70px;
+    }
+
+    .job {
+        font-size: max(18px , 100%);
+        margin: 0;
+        max-width: max(350px, 100%);
+        text-align: left;
+        float: left;
+        max-height: 40px;
     }
 }

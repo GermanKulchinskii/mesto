@@ -4,9 +4,17 @@
     padding-bottom: 2vw;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .footer {
         width: 68.75vw;
         margin: max(67px, 5.238vw) auto 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        width: 68.75vw;
+        margin: 2rem auto 0 auto;
+        max-width: 1320px;
     }
 }

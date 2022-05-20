@@ -5,7 +5,12 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .header {
+        height: max(57px, 4.82vw);
+        width: max(682px, 68.75vw);
+        margin: max(35px, 3.7vh) auto 0;
+        position: relative;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -14,5 +19,7 @@
         width: max(880px, 68.75vw);
         margin: max(45px, 3.7vh) auto 0;
         position: relative;
+        max-width: 1320px;
+        max-height: 92px;
     }
 }

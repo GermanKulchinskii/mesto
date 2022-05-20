@@ -13,9 +13,10 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .element {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto 2rem auto;
+        height: auto;
+        width: max(218px, 33.375vw);
+        border-radius: max(10px, 0.8vw);
+        margin: 0;
     }
 }
 
@@ -23,7 +24,9 @@
     .element {
         height: max(361px, 28.2vw);
         width: max(282px, 22.033vw);
-        border-radius: max(10px, 0.8vw);
+        border-radius: 15px;
         margin: 0;
+        max-width: 423px;
+        max-height: 541px;
     }
 }
