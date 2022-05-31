@@ -1,4 +1,5 @@
 let editForm = document.querySelector(".editForm")
+let popUpOpacity = document.querySelector(".popupOpacity")
 
 let closeButton = document.querySelector(".editFormCloser")
 let editButton = document.querySelector(".rectangle")
@@ -17,6 +18,7 @@ function editFormOpener() {
     editForm.style.display = "block"
     editName.value = currentUserName
     editJob.value = currentUserJob
+    popUpOpacity.style.display = "block"
 }
 
 editButton.addEventListener("click", function () {
@@ -25,6 +27,7 @@ editButton.addEventListener("click", function () {
 
 function editFormCloser() {
     editForm.style.display = "none"
+    popUpOpacity.style.display = "none"
 }
 
 closeButton.addEventListener("click", function () {

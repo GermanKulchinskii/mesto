@@ -26,5 +26,17 @@
         margin-left: min(-215px, -14vw);
         height: max(370px,24.13vw);
         width: max(430px, 28vw);
+        z-index: 3;
     }
+}
+
+.popupOpacity {
+    min-height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
 }
