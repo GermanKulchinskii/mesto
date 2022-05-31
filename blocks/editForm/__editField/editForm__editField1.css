@@ -27,4 +27,8 @@
         height: max(27px, 8.3%);
         width: max(358px, 83.3%);
     }
+
+    .editLine {
+        margin-top: 0.7rem;
+    }
 }

@@ -46,7 +46,7 @@
 
     .nameAndEButton {
         justify-content: normal;
-        height: 42px;
+        height: auto;
         margin-top: .5rem;
     }
 }

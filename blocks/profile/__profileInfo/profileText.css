@@ -39,7 +39,7 @@
         margin: 0;
         max-width: max(290px, 90%);
         text-align: left;
-        height: 42px;
+        height: auto;
     }
 
     .job {
@@ -48,6 +48,5 @@
         max-width: max(350px, 100%);
         text-align: left;
         max-height: 40px;
-        float: bottom;
     }
 }
