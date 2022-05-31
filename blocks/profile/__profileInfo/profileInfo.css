@@ -21,7 +21,7 @@
         margin-top: max(8px,1.3%);
         text-align: left;
         width: max(260px, 26.256vw);
-        height: max(67px, 6.721vw);
+        height: 72%;
         justify-content: normal;
     }
 
@@ -38,7 +38,7 @@
         margin-top: max(10px,1.3%);
         text-align: left;
         width: max(336px, 26.256vw);
-        height: max(86px, 6.721vw);
+        height: 72%;
         justify-content: normal;
         max-width: 500px;
         max-height: 130px;
@@ -46,6 +46,7 @@
 
     .nameAndEButton {
         justify-content: normal;
-        max-height: 70px;
+        height: 42px;
+        margin-top: .5rem;
     }
 }

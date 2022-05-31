@@ -4,13 +4,13 @@
     border: none;
     margin-top: max(30px, 9.375vw);
     margin-right: max(20px ,9.375vw);
-    width: max(22px, 6.875vw);
+    width: max(30px, 6.875vw);
     height: max(19px, 5.9375vw);
 }
 
 .like {
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -23,10 +23,10 @@
 
 @media (min-width: 1200px) {
     .likeButton {
-        margin: 35px 25px 0 0;
+        margin: 37px 2rem 0 0;
         width: max(22px, 1.723vw);
         height: max(19px,  1.49vw);
-        max-height: 26px;
+        max-height: 40px;
         max-width: 25px;
     }
 }

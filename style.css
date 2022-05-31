@@ -23,7 +23,6 @@
 @import url("blocks/elements/__elements/elements__likeButton.css");
 @import url("blocks/elements/__elements/elements__nameOfPhoto.css");
 @import url("blocks/elements/__elements/elements__picture.css");
-@import url("./blocks/elements/__elements/elements__photoBackground.css");
 
 @import url("./blocks/footer/footer.css");
 @import url("./blocks/footer/__footerText/footer__footerText.css");

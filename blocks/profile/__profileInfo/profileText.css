@@ -26,10 +26,10 @@
 
     .job {
         font-size: max(14px ,1.2vw);
-        margin: max(12px, 1.05vw) 0 0 0;
+        margin: 0 0 0 0;
         max-width: max(271px, 27.34vw);
         text-align: left;
-        float: left;
+        float: bottom;
     }
 }
 
@@ -39,15 +39,15 @@
         margin: 0;
         max-width: max(290px, 90%);
         text-align: left;
-        max-height: 70px;
+        height: 42px;
     }
 
     .job {
         font-size: max(18px , 100%);
-        margin: 0;
+        margin: 0 0 0 0;
         max-width: max(350px, 100%);
         text-align: left;
-        float: left;
         max-height: 40px;
+        float: bottom;
     }
 }
