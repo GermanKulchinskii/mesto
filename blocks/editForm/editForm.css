@@ -9,6 +9,18 @@
     font-family: 'Inter', sans-serif;
     display: none;
     min-width: 282px;
+    z-index: 3;
+}
+
+.popupOpacity {
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -28,15 +40,4 @@
         width: max(430px, 28vw);
         z-index: 3;
     }
-}
-
-.popupOpacity {
-    height: 100vh;
-    width: 100vw;
-    z-index: 2;
-    background: rgba(0, 0, 0, 0.4);
-    position: fixed;
-    left: 0;
-    top: 0;
-    display: none;
 }
