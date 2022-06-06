@@ -26,14 +26,14 @@
 
 @media (min-width: 1200px) {
     .editFormCloser {
-        margin-left: max(438px, 28.55vw);
-        margin-bottom: max(8px, 0.525vw);
-        height: max(32px, 2.09vw);
+        margin-left: 438px;
+        margin-bottom: 8px;
+        height: 32px;
         width: auto;
     }
 
     .editFormCloserPic {
-        height: max(32px, 2.09vw);
-        width: max(32px, 2.09vw);
+        height: auto;
+        width: auto;
     }
 }

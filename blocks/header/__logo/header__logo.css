@@ -16,9 +16,7 @@
 @media (min-width: 1200px) {
     .logo {
         height: auto;
-        width: max(142px, 9.25vw);
-        margin-top: 1%;
-        margin-left: 0;
-        max-width: 177px;
+        width: 142px;
+        margin: 0;
     }
 }

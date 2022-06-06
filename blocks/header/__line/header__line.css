@@ -25,7 +25,7 @@
 
 @media (min-width: 1200px) {
     .line {
-        height: max(1px, 0.08vw);
+        height: 1px;
         margin: 0;
         position: absolute;
         bottom: 0;

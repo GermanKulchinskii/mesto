@@ -22,11 +22,9 @@
 
 @media (min-width: 1200px) {
     .element {
-        height: max(361px, 28.2vw);
-        width: max(282px, 22.033vw);
+        height: 361px;
+        width: 282px;
         border-radius: 15px;
         margin: 0;
-        max-width: 423px;
-        max-height: 541px;
     }
 }

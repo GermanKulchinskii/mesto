@@ -23,9 +23,9 @@
 
 @media (min-width: 1200px) {
     .editField1 {
-        margin-top: max(48px, 11.3%);
-        height: max(27px, 8.3%);
-        width: max(358px, 83.3%);
+        margin-top: 48px;
+        height: 27px;
+        width: 358px;
     }
 
     .editLine {

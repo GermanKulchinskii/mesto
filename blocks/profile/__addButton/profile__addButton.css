@@ -36,11 +36,10 @@
 
 @media (min-width: 1200px) {
     .addButton {
-        margin-top: max(30px, 2.843%);
+        margin-top: 30px;
         float: right;
         height: auto;
-        width: max(150px ,9.77vw);
-        max-width: 187px;
+        width: 150px;
     }
 
     .desktopAddButton {

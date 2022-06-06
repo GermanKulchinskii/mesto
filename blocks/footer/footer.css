@@ -13,8 +13,7 @@
 
 @media (min-width: 1200px) {
     .footer {
-        width: 68.75vw;
+        width: 880px;
         margin: 2rem auto 0 auto;
-        max-width: 1320px;
     }
 }

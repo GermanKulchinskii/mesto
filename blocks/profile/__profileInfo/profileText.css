@@ -35,7 +35,7 @@
 
 @media (min-width: 1200px) {
     .name {
-        font-size: max(42px, 100%);
+        font-size: 38px;
         margin: 0;
         max-width: max(290px, 90%);
         text-align: left;
@@ -44,7 +44,7 @@
 
     .job {
         font-size: max(18px , 100%);
-        margin: 0 0 0 0;
+        margin: 5px 0 0 0;
         max-width: max(350px, 100%);
         text-align: left;
         max-height: 40px;

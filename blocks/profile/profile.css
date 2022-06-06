@@ -15,10 +15,8 @@
 
 @media (min-width: 1200px) {
     .profile {
-        width: max(880px ,68.75vw);
-        height: max(120px, 7.85vw);
+        width: 880px;
+        height: 120px;
         margin: 45px auto 56px auto;
-        max-width: 1320px;
-        max-height: 150px;
     }
 }

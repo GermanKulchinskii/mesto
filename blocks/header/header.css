@@ -15,11 +15,9 @@
 
 @media (min-width: 1200px) {
     .header {
-        height: max(74px, 4.82vw);
-        width: max(880px, 68.75vw);
-        margin: max(45px, 3.7vh) auto 0;
+        height: 74px;
+        width: 880px;
+        margin: 45px auto 0;
         position: relative;
-        max-width: 1320px;
-        max-height: 92px;
     }
 }

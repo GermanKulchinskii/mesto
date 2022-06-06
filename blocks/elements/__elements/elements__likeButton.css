@@ -23,9 +23,9 @@
 
 @media (min-width: 1200px) {
     .likeButton {
-        margin: 9% 13% 0 0;
-        width: max(22px, 1.723vw);
-        height: max(19px,  1.49vw);
+        margin: 28px 23px 0 0;
+        width: 22px;
+        height: auto;
         max-height: 40px;
         max-width: 25px;
     }

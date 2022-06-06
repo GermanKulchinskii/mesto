@@ -14,8 +14,7 @@
 @media (min-width: 1200px) {
     .picture {
         width: 100%;
-        height: max(282px, 22.033vw);
+        height: auto;
         border-radius: 15px 15px 0 0;
-        max-height: 423px;
     }
 }
