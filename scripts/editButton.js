@@ -12,6 +12,8 @@ let editJob = document.querySelector(".editJob")
 let userJob = document.querySelector(".job")
 let currentUserJob = userJob.textContent
 
+let body = document.querySelector("body")
+
 let submitButton = document.querySelector(".submitButton")
 
 function editFormOpener() {
@@ -19,6 +21,7 @@ function editFormOpener() {
     editName.value = currentUserName
     editJob.value = currentUserJob
     popUpOpacity.style.display = "block"
+    body.style.overflowY = "hidden"
 }
 
 editButton.addEventListener("click", function () {
@@ -28,6 +31,7 @@ editButton.addEventListener("click", function () {
 function editFormCloser() {
     editForm.style.display = "none"
     popUpOpacity.style.display = "none"
+    body.style.overflowY = "scroll"
 }
 
 closeButton.addEventListener("click", function () {
