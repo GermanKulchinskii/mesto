@@ -15,9 +15,12 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .editField1 {
-        margin-top: max(37px, 11.3%);
-        height: max(21px, 8.3%);
-        width: max(278px, 83.3%);
+        margin-top: 48px;
+        height: 27px;
+        width: 358px;
+    }
+    .editLine {
+        margin-top: 0.7rem;
     }
 }
 

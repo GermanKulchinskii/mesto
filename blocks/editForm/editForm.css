@@ -1,11 +1,11 @@
 .editForm {
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 50%;
-    margin-left: -44vw;
-    margin-top: -31.5vh;
-    height: 63vh;
-    width: 88.125vw;
+    margin-left: -141px;
+    margin-top: -140px;
+    height: auto;
+    width: 282px;
     font-family: 'Inter', sans-serif;
     display: none;
     min-width: 282px;
@@ -25,10 +25,10 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .editForm {
-        margin-top: min(-108px, -10.65vw);
-        margin-left: min(-166px, -14vw);
-        height: max(286px,24.13vw);
-        width: max(333px, 28vw);
+        margin-top: -140px;
+        margin-left: -215px;
+        height: 370px;
+        width: 430px;
     }
 }
 
@@ -38,6 +38,5 @@
         margin-left: -215px;
         height: 370px;
         width: 430px;
-        position: fixed;
     }
 }

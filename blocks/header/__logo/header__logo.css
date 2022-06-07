@@ -6,10 +6,9 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .logo {
-        height: max(26px, 2.15vw);
-        width: max(110px, 9.25vw);
-        margin-top: 1%;
-        margin-left: 0;
+        height: auto;
+        width: 110px;
+        margin: 0;
     }
 }
 

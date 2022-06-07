@@ -17,10 +17,10 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .addButton {
-        margin-top: max(23px, 1.96vw);
+        margin-top: 1.4rem;
         float: right;
-        height: max(39px, 3.26vw);
-        width: max(116px ,9.77vw);
+        height: 39px;
+        width: 116px;
         max-width: none;
     }
 

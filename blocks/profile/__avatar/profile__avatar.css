@@ -14,15 +14,7 @@
     .avatar {
         height: 100%;
         width: auto;
-        min-height: 0;
         float: left;
-        min-width: 0;
-    }
-
-    .photo {
-        border-radius: 50%;
-        height: 100%;
-        width: 100%;
     }
 }
 
@@ -31,11 +23,5 @@
         height: 100%;
         width: auto;
         float: left;
-    }
-
-    .photo {
-        border-radius: 50%;
-        height: 100%;
-        width: 100%;
     }
 }

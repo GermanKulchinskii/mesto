@@ -13,13 +13,12 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .editButton {
-        margin-left: max(14px, 3%);
-        margin-top: max(12px, 1.177vw);
+        margin-left: 1rem;
+        margin-top: .7rem;
     }
 
     .rectangle {
-        width: max(18px, 1.565vw);
-        height: max(18px, 1.565vw);
+        width: 18px;
     }
 }
 

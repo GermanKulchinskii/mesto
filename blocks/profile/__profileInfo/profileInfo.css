@@ -17,16 +17,19 @@
     .profileInfo {
         display: grid;
         float: left;
-        margin-left: max(23px, 2.35vw);
-        margin-top: max(8px,1.3%);
+        margin-left: 1.5rem;
+        margin-top: .5rem;
         text-align: left;
         width: max(260px, 26.256vw);
-        height: 72%;
+        height: auto;
         justify-content: normal;
+        max-width: 400px;
     }
 
     .nameAndEButton {
         justify-content: normal;
+        height: auto;
+        margin-top: 8px;
     }
 }
 

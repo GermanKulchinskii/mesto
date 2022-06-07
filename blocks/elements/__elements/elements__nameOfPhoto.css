@@ -11,8 +11,8 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .nameOfPhoto {
-        margin: max(12px, 1.256vw) 0 max(30px,2vw) max(16px, 1.642vw);
-        font-size: max(24px, 1.916vw);
+        margin: 1.35rem 0 max(30px,2vw) max(16px, 1.642vw);
+        font-size: 25px;
         max-width: 75%;
     }
 }

@@ -6,9 +6,9 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header {
-        height: max(57px, 4.82vw);
-        width: max(682px, 68.75vw);
-        margin: max(35px, 3.7vh) auto 0;
+        height: 3.6rem;
+        width: 42.65rem;
+        margin: 2.2rem auto 0;
         position: relative;
     }
 }

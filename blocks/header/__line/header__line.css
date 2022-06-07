@@ -16,7 +16,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .line {
-        height: 2px;
+        height: 1px;
         margin: 0;
         position: absolute;
         bottom: 0;

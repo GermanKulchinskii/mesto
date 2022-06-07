@@ -10,10 +10,10 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     .elements {
         grid-template-columns: 1fr 1fr;
-        width: max(682px, 68.75vw);
+        width: 42.65rem;
         height: auto;
-        grid-column-gap: max(20px, 2vw);
-        grid-row-gap: max(20px, 2vw);
+        grid-column-gap: 1.65rem;
+        grid-row-gap: 1.65rem;
         margin-top: 0;
     }
 }
