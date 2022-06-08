@@ -7,7 +7,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .element {
-        border-radius: 20px;
+        border-radius: 10px;
     }
 }
 

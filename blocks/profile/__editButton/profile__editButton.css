@@ -1,7 +1,8 @@
 .editButton {
     height: auto;
     width: auto;
-    margin-top: max(10px, 1.7vw);
+    margin-top: auto;
+    margin-bottom: 3px;
     margin-left: max(10px, 1.7vw);
 }
 

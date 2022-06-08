@@ -1,16 +1,23 @@
 .editField1 {
-    margin-top: 13.2vh;
-    width: max(238px, 74.375vw);
+    margin-top: 4.6rem;
+    width: 14.9rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .editLine {
     width: 100%;
-    opacity: 20%;
-    margin: 0 auto;
+    opacity: 40%;
+    margin: .5rem auto;
     background-color: #545454;
     color: #545454;
+}
+
+@media (min-height: 320px) and (max-height: 499px) and (min-width: 400px) and (max-width: 900px){
+    .editField1 {
+        margin-top: 10%;
+        width: 84.7%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
