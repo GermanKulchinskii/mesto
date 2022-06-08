@@ -23,8 +23,8 @@ function editFormOpener() {
     editJob.value = currentUserJob
     popUpOpacity.style.display = "block"
     body.style.overflowY = "hidden"
-    html.style.overflow = "hidden"
-
+    body.style.height = "100%"
+    body.style.position = "relative"
 }
 
 editButton.addEventListener("click", function () {
@@ -35,7 +35,7 @@ function editFormCloser() {
     editForm.style.display = "none"
     popUpOpacity.style.display = "none"
     body.style.overflowY = "scroll"
-    html.style.overflow = "scroll"
+    body.style.position = "static"
 }
 
 closeButton.addEventListener("click", function () {
