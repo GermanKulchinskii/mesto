@@ -15,10 +15,21 @@
     overflow: hidden;
 }
 
-@media (min-height: 320px) and (max-height: 499px) and (min-width: 400px) and (max-width: 900px){
+@media (min-height: 320px) and (max-height: 499px) and (min-width: 400px) and (max-width: 991px){
     .editField2 {
         margin-top: 5%;
         width: 84.7%;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 991px) and (min-height: 500px) {
+    .editField2 {
+        width: 84.7%;
+        margin-top: 10%;
+    }
+
+    .editedText {
+        font-size: 20px;
     }
 }
 
