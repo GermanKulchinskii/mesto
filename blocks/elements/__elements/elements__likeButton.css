@@ -6,6 +6,7 @@
     margin-right: max(20px ,9.375vw);
     width: max(30px, 6.875vw);
     height: max(19px, 5.9375vw);
+    padding: 0;
 }
 
 .like {
