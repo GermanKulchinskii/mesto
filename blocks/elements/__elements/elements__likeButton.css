@@ -1,0 +1,38 @@
+.likeButton {
+    float: right;
+    background-color: #FFFFFF;
+    border: none;
+    margin-top: max(30px, 9.375vw);
+    margin-right: max(20px ,9.375vw);
+    width: max(30px, 6.875vw);
+    height: max(19px, 5.9375vw);
+    padding: 0;
+}
+
+.like {
+    height: 100%;
+    width: auto;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .likeButton {
+        margin: 27px 20px 0 0;
+        width: 30px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .likeButton {
+        margin: 28px 23px 0 0;
+        width: 22px;
+        height: auto;
+        max-height: 40px;
+        max-width: 25px;
+    }
+}
+
+.likeButton:hover {
+    opacity: 70%;
+    cursor: pointer;
+}

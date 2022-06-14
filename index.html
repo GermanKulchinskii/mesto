@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <img class="logo" src="./images/logoImage.png" alt="Mesto">
+    <hr class="line">
+</header>
+
+<div class="profile">
+    <div class="avatar">
+        <img class="photo" src="./images/avatar.jpg" alt="photo">
+    </div>
+
+    <div class="profileInfo">
+        <div class="nameAndEButton">
+            <p class="name">Жак-Ив Кусто</p>
+            <div class="editButton">
+                <img class="rectangle" src="./images/editButton.png" alt="">
+            </div>
+        </div>
+
+        <p class="job">Исследователь океана</p>
+    </div>
+
+    <div class="addButton">
+        <img class="desktopAddButton" src="./images/addButton.png" alt="">
+        <img class="mAddPic" src="./images/mAddPic.png" alt="">
+    </div>
+</div>
+
+<main>
+    <div class="elements">
+
+        <div class="element">
+            <img class="picture" src="./images/karachaevsk.jpg" alt="Карачаевск">
+            <button class="likeButton">
+                <img class="like" src="./images/like.png" alt="">
+            </button>
+            <p class="nameOfPhoto">Карачаевск</p>
+        </div>
+
+        <div class="element">
+            <img class="picture" src="./images/donbay.jpg" alt="Донбай">
+            <button class="likeButton">
+                <img class="like" src="./images/like.png" alt="">
+            </button>
+            <p class="nameOfPhoto">Донбай</p>
+        </div>
+
+        <div class="element">
+            <img class="picture" src="./images/gora_Elbrus.jpg" alt="Гора Эльбрус">
+            <button class="likeButton">
+                <img class="like" src="./images/like.png" alt="">
+            </button>
+            <p class="nameOfPhoto">Гора Эльбрус</p>
+        </div>
+
+        <div class="element">
+            <img class="picture" src="./images/karachaevsk.jpg" alt="Карачаевск">
+            <button class="likeButton">
+                <img class="like" src="./images/like.png" alt="">
+            </button>
+            <p class="nameOfPhoto">Карачаевск</p>
+        </div>
+
+        <div class="element">
+            <img class="picture" src="./images/karachaevsk.jpg" alt="Карачаевск">
+            <button class="likeButton">
+                <img class="like" src="./images/like.png" alt="">
+            </button>
+            <p class="nameOfPhoto">Карачаевск</p>
+        </div>
+
+        <div class="element">
+            <img class="picture" src="./images/karachaevsk.jpg" alt="Карачаевск">
+            <button class="likeButton">
+                <img class="like" src="./images/like.png" alt="">
+            </button>
+            <p class="nameOfPhoto">Карачаевск</p>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <p class="footerText">© 2020 Mesto Russia</p>
+</footer>
+
+<div class="popupOpacity">
+    <div class="editForm">
+        <div class="editFormCloser"><img class="editFormCloserPic" src="./images/closeIcon.png" alt=""></div>
+        <div class="editFormContent">
+            <p class="editProfile">Редактировать профиль</p>
+            <div class="editField1">
+                <label>
+                    <input class="editedText editName" type="text" value="">
+                </label>
+                <hr class="editLine">
+            </div>
+            <div class="editField2">
+                <label>
+                    <input class="editedText editJob" type="text" value="">
+                </label>
+                <hr class="editLine">
+            </div>
+            <div class="submitButton">Сохранить</div>
+            <div class="empty"></div>
+        </div>
+    </div>
+</div>
+
+<script src="./scripts/editButton.js"></script>
+</body>
+</html>

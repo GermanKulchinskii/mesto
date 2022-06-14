@@ -1,0 +1,51 @@
+.name {
+    margin: 0;
+    font-size: max(25px, 8.44vw);
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.job {
+    font-size: max(14px, 4.375vw);
+    color: #FFFFFF;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .name {
+        font-size: 30px;
+        margin: 0;
+        max-width: 300px;
+        text-align: left;
+    }
+
+    .job {
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        max-width: 271px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .name {
+        font-size: 38px;
+        margin: 0;
+        max-width: max(290px, 90%);
+        text-align: left;
+        height: auto;
+    }
+
+    .job {
+        font-size: max(18px , 100%);
+        margin: 5px 0 0 0;
+        max-width: max(350px, 100%);
+        text-align: left;
+        max-height: 40px;
+    }
+}

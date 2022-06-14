@@ -1,0 +1,64 @@
+.addButton {
+    width: max(282px, 88.125vw);
+    height: auto;
+    margin: max(36px, 11.25vw) auto 0;
+}
+
+.desktopAddButton {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.mAddPic {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .addButton {
+        margin-top: 1.4rem;
+        float: right;
+        height: 39px;
+        width: 116px;
+        max-width: none;
+    }
+
+    .desktopAddButton {
+        cursor: pointer;
+        display: block;
+    }
+
+    .mAddPic {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .addButton {
+        margin-top: 30px;
+        float: right;
+        height: auto;
+        width: 150px;
+    }
+
+    .desktopAddButton {
+        cursor: pointer;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .mAddPic {
+        display: none;
+    }
+}
+
+.desktopAddButton:hover {
+    opacity: 50%;
+}
+
+.mAddPic:hover {
+    opacity: 50%;
+}
+

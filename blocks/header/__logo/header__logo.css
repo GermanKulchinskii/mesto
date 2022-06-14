@@ -1,0 +1,21 @@
+.logo {
+    margin-left: max(27px, 8.75vw);
+    height: max(24px, 7.625vw);
+    width: max(104px, 32.42vw);
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        height: auto;
+        width: 110px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        height: auto;
+        width: 142px;
+        margin: 0;
+    }
+}

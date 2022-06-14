@@ -1,0 +1,22 @@
+.profile {
+    width: max(282px, 88.125vw);
+    height: auto;
+    margin: max(28px, 13.125vw) auto 0;
+    display: block;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .profile {
+        width: 42.65rem;
+        height: 5.82rem;
+        margin: 2rem auto 2.5rem auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .profile {
+        width: 880px;
+        height: 120px;
+        margin: 45px auto 56px auto;
+    }
+}

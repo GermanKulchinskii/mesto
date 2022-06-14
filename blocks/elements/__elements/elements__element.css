@@ -1,0 +1,30 @@
+.element {
+    width: max(282px, 88.125vw);
+    height: max(361px, 112.8125vw);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .element {
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .element {
+        height: auto;
+        width: 20.5rem;
+        border-radius: 10px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .element {
+        height: 361px;
+        width: 282px;
+        border-radius: 15px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.avatar {
+    height: auto;
+    width: max(120px, 37.5vw);
+    margin: 0 auto;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .avatar {
+        height: 100%;
+        width: auto;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .avatar {
+        height: 100%;
+        width: auto;
+        float: left;
+    }
+}
