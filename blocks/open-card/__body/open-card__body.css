@@ -1,0 +1,7 @@
+.open-card__body {
+    margin: 15vh auto;
+    max-height: 80vh;
+    max-width: 80vw;
+    display: inline-block;
+    position: relative;
+}

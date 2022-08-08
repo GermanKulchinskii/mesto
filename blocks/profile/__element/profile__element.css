@@ -1,0 +1,11 @@
+.profile__element {
+
+}
+
+@media (min-width: 1200px) {
+    .profile__element {
+        max-width: 500px;
+        height: 46px;
+        padding-top: 20px;
+    }
+}

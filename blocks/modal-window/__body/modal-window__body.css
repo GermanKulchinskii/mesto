@@ -1,0 +1,11 @@
+.modal-window__body {
+
+}
+
+@media (min-width: 1200px) {
+    .modal-window__body {
+        height: 370px;
+        width: 430px;
+        margin-bottom: 2vh;
+    }
+}

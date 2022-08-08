@@ -1,0 +1,16 @@
+.modal-window__closer {
+
+}
+
+@media (min-width: 1200px) {
+    .modal-window__closer {
+        height: 32px;
+        width: 32px;
+        cursor: pointer;
+        margin-left: 438px;
+    }
+}
+
+.modal-window__closer:hover {
+    opacity: 70%;
+}

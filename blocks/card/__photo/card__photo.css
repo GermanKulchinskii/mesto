@@ -1,0 +1,11 @@
+.card__photo {
+    border-radius: 10px 10px 0 0;
+}
+
+@media (min-width: 1200px) {
+    .card__photo {
+        height: 282px;
+        width: 282px;
+        cursor: pointer;
+    }
+}

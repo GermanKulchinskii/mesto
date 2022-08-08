@@ -1,0 +1,16 @@
+.card__name {
+    font-weight: 900;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .card__name {
+        float: left;
+        margin-top: 24px;
+        margin-left: 20px;
+        max-width: 200px;
+        font-size: 24px;
+    }
+}

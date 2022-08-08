@@ -1,0 +1,20 @@
+.profile__edit-button {
+
+}
+
+@media (min-width: 1200px) {
+    .profile__edit-button {
+        float: left;
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        background-color: black;
+        border: none;
+        margin: 13px 0 0 20px;
+        cursor: pointer;
+    }
+}
+
+.profile__edit-button:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="header__body">
+        <img class="header__logo" src="./images/header__logo.png" alt="Mesto">
+        <div class="header__line"></div>
+    </div>
+</header>
+
+<div class="profile">
+    <div class="profile__body">
+        <div class="profile__avatar"><img class="profile__photo" src="./images/profile-pic.jpg" alt="photo"></div>
+
+        <div class="profile__info">
+            <div class="profile__element">
+                <p class="profile__name">Жак-Ив Кусто</p>
+                <button class="profile__edit-button"><img class="profile__edit-button-pic"
+                                                          src="./images/edit-button.png" alt="Редактировать профиль">
+                </button>
+            </div>
+            <p class="profile__job">Исследователь океана</p>
+        </div>
+
+        <button class="profile__add-button"><img class="profile__add-button-pic" src="./images/add-button.png"
+                                                 alt="Добавить"></button>
+    </div>
+</div>
+
+<div class="modal-window">
+    <div class="modal-window__bg edit-from__bg">
+        <div class="modal-window__body">
+            <img class="modal-window__closer" src="./images/close-icon.svg" alt="Закрыть">
+            <form class="modal-window__edit-form">
+                <p class="modal-window__edit-form-name">Редактировать профиль</p>
+
+                <label class="modal-window__edit-field-1">
+                    <input class="modal-window__edited-name" type="text">
+                    <div class="modal-window__line"></div>
+                </label>
+
+                <label class="modal-window__edit-field-2">
+                    <input class="modal-window__edited-job" type="text">
+                    <div class="modal-window__line"></div>
+                </label>
+
+                <button class="modal-window__submit-button edit-form-submit-button" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal-window">
+    <div class="modal-window__bg add-form__bg">
+        <div class="modal-window__body">
+            <img class="modal-window__closer add-form-closer" src="./images/close-icon.svg" alt="Закрыть">
+            <form class="modal-window__edit-form">
+                <p class="modal-window__edit-form-name">Новое место</p>
+
+                <label class="modal-window__edit-field-1">
+                    <input class="modal-window__edited-name place-name" type="text" placeholder="Название">
+                    <div class="modal-window__line"></div>
+                </label>
+
+                <label class="modal-window__edit-field-2">
+                    <input class="modal-window__edited-job img-link" type="text" placeholder="Ссылка на картинку">
+                    <div class="modal-window__line"></div>
+                </label>
+
+                <button class="modal-window__submit-button add-form-submit-button" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="card-container"></div>
+
+<template class="card-template">
+    <div class="card">
+        <button class="card__delete"></button>
+        <img class="card__photo" src="" alt="">
+        <div class="card__name"></div>
+        <button class="card__like"></button>
+    </div>
+</template>
+
+<div class="open-card">
+    <div class="open-card__body">
+        <button class="open-card__closer"></button>
+        <img class="open-card__photo" src="" alt="">
+        <p class="open-card__name"></p>
+    </div>
+</div>
+
+<footer class="footer">© 2020 Mesto Russia</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

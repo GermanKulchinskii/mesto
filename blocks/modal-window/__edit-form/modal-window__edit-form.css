@@ -1,0 +1,13 @@
+.modal-window__edit-form {
+
+}
+
+@media (min-width: 1200px) {
+    .modal-window__edit-form {
+        background-color: white;
+        border-radius: 10px;
+        height: 330px;
+        width: 430px;
+        margin: 0;
+    }
+}

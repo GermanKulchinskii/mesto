@@ -1,0 +1,12 @@
+.modal-window__edit-field-1 {
+
+}
+
+@media (min-width: 1200px) {
+    .modal-window__edit-field-1 {
+        display: block;
+        height: 27px;
+        width: 358px;
+        margin: 48px 0 0 36px;
+    }
+}

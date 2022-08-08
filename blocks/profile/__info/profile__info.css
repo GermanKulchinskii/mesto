@@ -1,0 +1,13 @@
+.profile__info {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .profile__info {
+        float: left;
+        max-width: 500px;
+        height: 100%;
+    }
+}

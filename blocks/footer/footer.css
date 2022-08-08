@@ -1,0 +1,12 @@
+.footer {
+    font-weight: 400;
+    color: #545454;
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        font-size: 18px;
+        width: 880px;
+        margin: 20px auto;
+    }
+}
