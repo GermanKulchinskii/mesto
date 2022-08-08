@@ -2,16 +2,17 @@
     background: url(/images/delete-button.svg) no-repeat center;
     cursor: pointer;
     border: none;
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    right: 20px;
+    width: 18px;
+    height: 20px;
 }
 
 @media (min-width: 1200px) {
     .card__delete {
-        position: absolute;
-        z-index: 3;
-        top: 20px;
-        right: 20px;
-        width: 18px;
-        height: 20px;
+
     }
 }
 

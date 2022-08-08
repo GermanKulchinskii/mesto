@@ -1,12 +1,14 @@
 .modal-window__edit-form-name {
-    margin: 0;
+    text-align: left;
+    font-weight: 900;
+    font-size: 18px;
+    padding-top: max(25px, 8%);
+    margin: 0 0 0 max(20px, 7%);
 }
 
 @media (min-width: 1200px) {
     .modal-window__edit-form-name {
         font-size: 24px;
-        text-align: left;
-        font-weight: 900;
         margin: 0 0 0 36px;
         padding-top: 34px;
         width: 330px;

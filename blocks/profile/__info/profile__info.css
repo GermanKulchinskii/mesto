@@ -2,6 +2,12 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+
+    text-align: center;
+    margin: max(26px, 7vw) auto 0;
+    justify-content: center;
+    width: 100%;
+    min-width: 282px;
 }
 
 @media (min-width: 1200px) {
@@ -9,5 +15,6 @@
         float: left;
         max-width: 500px;
         height: 100%;
+        margin: 0;
     }
 }

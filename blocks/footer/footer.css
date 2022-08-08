@@ -1,6 +1,9 @@
 .footer {
     font-weight: 400;
     color: #545454;
+    font-size: 14px;
+    width: 282px;
+    margin: 20px auto;
 }
 
 @media (min-width: 1200px) {

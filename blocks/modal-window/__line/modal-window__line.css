@@ -1,13 +1,12 @@
 .modal-window__line {
-
+    height: 1px;
+    background-color: #545454;
+    opacity: 0.3;
+    margin-top: 13px;
 }
 
 @media (min-width: 1200px) {
     .modal-window__line {
-        height: 1px;
-        background-color: #545454;
-        opacity: 0.3;
-        margin-top: 13px;
         width: 358px;
     }
 }

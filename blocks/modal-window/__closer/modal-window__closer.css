@@ -1,13 +1,17 @@
 .modal-window__closer {
-
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-left: max(262px, calc(75vw - 20px));
+    margin-bottom: 10px;
 }
 
 @media (min-width: 1200px) {
     .modal-window__closer {
         height: 32px;
         width: 32px;
-        cursor: pointer;
         margin-left: 438px;
+        margin-bottom: 0;
     }
 }
 

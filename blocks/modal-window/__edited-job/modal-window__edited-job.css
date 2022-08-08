@@ -2,12 +2,12 @@
     padding: 0;
     outline: none;
     border: none;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 @media (min-width: 1200px) {
     .modal-window__edited-job {
-        font-weight: 400;
-        font-size: 14px;
         width: 358px;
     }
 }

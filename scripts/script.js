@@ -24,21 +24,27 @@ editButton.addEventListener("click", (evt) => {
     editFormName.value = newName.textContent
     editFormJob.value = newJob.textContent
     modalWindowBg.classList.add("active")
+    document.querySelector("body").style.overflow = "hidden"
 })
 
 modalWindowCloser.addEventListener("click", () => {
     modalWindowBg.classList.remove("active")
     editFormName.value = ''
     editFormJob.value = ''
+    document.querySelector("body").style.overflow = "auto"
 })
 
 addButton.addEventListener("click", (evt) => {
     evt.preventDefault()
     addWindowBg.classList.add("active")
+    document.querySelector(".place-name").value = ''
+    document.querySelector(".img-link").value = ''
+    document.querySelector("body").style.overflow = "hidden"
 })
 
 addFormCloser.addEventListener("click", () => {
     addWindowBg.classList.remove("active")
+    document.querySelector("body").style.overflow = "auto"
 })
 
 editFormSubmit.addEventListener("click", (evt) => {

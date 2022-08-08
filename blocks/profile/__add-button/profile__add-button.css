@@ -1,13 +1,21 @@
 .profile__add-button {
     border: none;
     background-color: black;
+    width: max(282px, 75vw);
+    height: auto;
+    padding: 0;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
 }
 
 @media (min-width: 1200px) {
     .profile__add-button {
         float: right;
         padding: 0;
-        margin-top: 33px;
+        margin: 33px 0 0 0;
+        width: 150px;
+        height: auto;
     }
 }
 

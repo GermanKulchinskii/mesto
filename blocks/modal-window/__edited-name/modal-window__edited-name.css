@@ -2,12 +2,12 @@
     border: none;
     padding: 0;
     outline: none;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 @media (min-width: 1200px) {
     .modal-window__edited-name {
-        font-weight: 400;
-        font-size: 14px;
         width: 358px;
         max-width: 358px;
     }

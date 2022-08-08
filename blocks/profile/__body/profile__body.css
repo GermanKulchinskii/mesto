@@ -1,4 +1,7 @@
 .profile__body {
+    width: max(282px, 88.125vw);
+    height: auto;
+    margin: max(28px, 13.125vw) auto 0;
     display: block;
 }
 

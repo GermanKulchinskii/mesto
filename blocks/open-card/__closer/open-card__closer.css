@@ -1,13 +1,22 @@
 .open-card__closer {
-    float: right;
     border: none;
-    background: url("../../../images/close-icon.svg");
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
     position: absolute;
-    top: -40px;
-    right: -40px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    top: -36px;
+    right: 0;
+}
+
+@media (min-width: 1200px) {
+    .open-card__closer {
+        float: right;
+        width: 32px;
+        height: 32px;
+        top: -40px;
+        right: -40px;
+    }
 }
 
 .open-card__closer:hover {

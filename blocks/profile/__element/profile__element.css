@@ -1,9 +1,11 @@
 .profile__element {
-
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 1200px) {
     .profile__element {
+        display: block;
         max-width: 500px;
         height: 46px;
         padding-top: 20px;

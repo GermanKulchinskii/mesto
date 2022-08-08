@@ -4,6 +4,8 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-size: 27px;
+    margin: 0;
 }
 
 @media (min-width: 1200px) {

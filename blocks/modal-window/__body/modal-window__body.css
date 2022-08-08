@@ -1,5 +1,7 @@
 .modal-window__body {
-
+    height: max(358px, 95vw);
+    width: max(282px, 75vw);
+    margin-bottom: 2vh;
 }
 
 @media (min-width: 1200px) {
