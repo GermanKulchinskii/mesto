@@ -5,13 +5,13 @@
     max-width: 160px;
 }
 
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 991px){
     .header__logo {
         width: 152px;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .header__logo {
         width: 142px;
         margin: 0;

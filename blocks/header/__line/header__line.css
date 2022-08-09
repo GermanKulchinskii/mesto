@@ -6,9 +6,3 @@
     bottom: 0;
     width: 100%;
 }
-
-@media (min-width: 1200px) {
-    .header__line {
-        width: 100%;
-    }
-}

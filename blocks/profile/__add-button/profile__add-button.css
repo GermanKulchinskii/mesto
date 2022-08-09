@@ -16,7 +16,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .profile__add-button {
         float: right;
         padding: 0;

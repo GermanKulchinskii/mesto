@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .card__name {
         margin-top: 24px;
         margin-left: 20px;

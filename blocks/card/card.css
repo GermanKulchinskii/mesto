@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .card {
         width: 282px;
         height: 361px;

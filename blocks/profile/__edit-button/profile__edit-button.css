@@ -10,7 +10,7 @@
     margin: 10px 0 0 5px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .profile__edit-button {
         float: left;
         width: 24px;

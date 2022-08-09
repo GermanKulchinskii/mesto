@@ -12,13 +12,13 @@
     }
 }
 
-@media (min-width: 651px) and (max-width: 768px) {
+@media (min-width: 651px) and (max-width: 991px) {
     .footer {
         width: 581px;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .footer {
         font-size: 18px;
         width: 880px;

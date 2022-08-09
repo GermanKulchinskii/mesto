@@ -52,6 +52,7 @@ editFormSubmit.addEventListener("click", (evt) => {
     newName.textContent = editFormName.value
     newJob.textContent = editFormJob.value
     modalWindowBg.classList.remove("active")
+    document.querySelector("body").style.overflow = "auto"
 })
 
 function addSong(placeValue, imgLink) {
@@ -92,6 +93,7 @@ addFormSubmit.addEventListener("click", (evt) => {
     img.value = ''
 
     addWindowBg.classList.remove("active")
+    document.querySelector("body").style.overflow = "auto"
 })
 
 photoCloser.addEventListener("click", () => {

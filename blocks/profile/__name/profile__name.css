@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .profile__name {
         font-size: 38px;
         margin: 0;
