@@ -8,7 +8,7 @@
     top: -30px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .modal-window__closer {
         height: 32px;
         width: 32px;

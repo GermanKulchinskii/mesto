@@ -9,7 +9,7 @@
     right: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .open-card__closer {
         float: right;
         width: 32px;

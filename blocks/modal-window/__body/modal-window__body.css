@@ -7,7 +7,7 @@
     position: relative;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .modal-window__body {
         height: 370px;
         width: 430px;

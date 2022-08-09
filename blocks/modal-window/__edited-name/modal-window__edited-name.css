@@ -6,7 +6,7 @@
     font-size: 14px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .modal-window__edited-name {
         width: 358px;
         max-width: 358px;

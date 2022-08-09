@@ -8,7 +8,7 @@
     max-height: 405px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .modal-window__edit-form {
         height: 330px;
         width: 430px;
