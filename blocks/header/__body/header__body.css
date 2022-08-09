@@ -1,0 +1,19 @@
+.header__body {
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .header__body {
+        height: 120px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header__body {
+        height: 74px;
+        width: 880px;
+        margin: 45px auto 0;
+    }
+}

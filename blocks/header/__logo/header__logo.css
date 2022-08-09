@@ -1,20 +1,18 @@
-.logo {
-    margin-left: max(27px, 8.75vw);
-    height: max(24px, 7.625vw);
-    width: max(104px, 32.42vw);
+.header__logo {
+    height: auto;
+    width: max(104px, 33vw);
+    margin: 28px 0 0 27px;
+    max-width: 160px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .logo {
-        height: auto;
-        width: 110px;
-        margin: 0;
+@media (min-width: 576px) and (max-width: 991px){
+    .header__logo {
+        width: 152px;
     }
 }
 
-@media (min-width: 1200px) {
-    .logo {
-        height: auto;
+@media (min-width: 992px) {
+    .header__logo {
         width: 142px;
         margin: 0;
     }

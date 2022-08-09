@@ -1,0 +1,21 @@
+.profile__body {
+    width: max(282px, 88.125vw);
+    height: auto;
+    margin: max(28px, 13.125vw) auto 0;
+    display: block;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .profile__body {
+        max-width: 536px;
+        max-height: 440px;
+    }
+}
+
+@media (min-width: 992px) {
+    .profile__body {
+        width: 880px;
+        height: 120px;
+        margin: 45px auto 56px auto;
+    }
+}

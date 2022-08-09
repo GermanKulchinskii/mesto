@@ -1,0 +1,33 @@
+.card__name {
+    font-weight: 900;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    margin-top: max(24px, 8%);
+    margin-left: 20px;
+    max-width: 200px;
+    font-size: 24px;
+}
+
+@media (min-width: 576px) and (max-width: 650px) {
+    .card__name {
+        font-size: 30px;
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 991px) {
+    .card__name {
+        font-size: 24px;
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card__name {
+        margin-top: 24px;
+        margin-left: 20px;
+        max-width: 200px;
+    }
+}

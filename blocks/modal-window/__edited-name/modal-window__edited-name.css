@@ -1,0 +1,14 @@
+.modal-window__edited-name {
+    border: none;
+    padding: 0;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    .modal-window__edited-name {
+        width: 358px;
+        max-width: 358px;
+    }
+}

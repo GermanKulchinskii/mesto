@@ -1,0 +1,31 @@
+.modal-window__submit-button {
+    font-size: 14px;
+    margin: max(45px, 15%) 0 0 max(20px, 7%);
+    font-weight: 400;
+    width: max(238px, 85%);
+    height: max(46px, 14%);
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 0;
+}
+
+@media (min-width: 420px){
+    .modal-window__submit-button {
+        margin-top: 18%;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-window__submit-button {
+        font-size: 18px;
+        width: 358px;
+        height: 50px;
+        margin: 44px 0 0 36px;
+    }
+}
+
+.modal-window__submit-button:hover {
+    opacity: 80%;
+}

@@ -1,28 +1,45 @@
-@import url("./blocks/root/root.css");
+@import url("./blocks/root.css");
 
-@import url("./blocks/header/header.css");
+@import url("./blocks/header/__body/header__body.css");
 @import url("./blocks/header/__logo/header__logo.css");
 @import url("./blocks/header/__line/header__line.css");
 
-@import url("./blocks/profile/profile.css");
-@import url("./blocks/profile/__profileInfo/profileText.css");
+@import url("./blocks/profile/__body/profile__body.css");
 @import url("./blocks/profile/__avatar/profile__avatar.css");
-@import url("./blocks/profile/__profileInfo/profileInfo.css");
-@import url("./blocks/profile/__editButton/profile__editButton.css");
-@import url("./blocks/profile/__addButton/profile__addButton.css");
+@import url("./blocks/profile/__photo/profile__photo.css");
+@import url("./blocks/profile/__info/profile__info.css");
+@import url("./blocks/profile/__name/profile__name.css");
+@import url("./blocks/profile/__edit-button/profile__edit-button.css");
+@import url("./blocks/profile/__job/profile__job.css");
+@import url("./blocks/profile/__element/profile__element.css");
+@import url("./blocks/profile/__add-button/profile__add-button.css");
+@import url("./blocks/profile/__add-button-pic/profile__add-button-pic.css");
 
-@import url("blocks/editForm/editForm.css");
-@import url("blocks/editForm/__editFormContent/editForm__editFormContent.css");
-@import url("blocks/editForm/__editFormCloser/editForm__editFormCloser.css");
-@import url("blocks/editForm/__submitButton/__submitButton.css");
-@import url("blocks/editForm/__editField/editForm__editField1.css");
-@import url("blocks/editForm/__editField/editForm__editField2.css");
+@import url("./blocks/modal-window/__bg/modal-window__bg.css");
+@import url("./blocks/modal-window/__body/modal-window__body.css");
+@import url("./blocks/modal-window/__closer/modal-window__closer.css");
+@import url("blocks/modal-window/__edit-form/modal-window__edit-form.css");
+@import url("./blocks/modal-window/__edit-form-name/modal-window__edit-form-name.css");
+@import url("./blocks/modal-window/__edit-field-1/modal-window__edit-field-1.css");
+@import url("./blocks/modal-window/__edited-name/modal-window__edited-name.css");
+@import url("./blocks/modal-window/__line/modal-window__line.css");
+@import url("./blocks/modal-window/__edit-field-2/modal-window__edit-field-2.css");
+@import url("./blocks/modal-window/__edited-job/modal-window__edited-job.css");
+@import url("./blocks/modal-window/__submit-button/modal-window__submit-button.css");
 
-@import url("./blocks/elements/elements.css");
-@import url("blocks/elements/__elements/elements__element.css");
-@import url("blocks/elements/__elements/elements__likeButton.css");
-@import url("blocks/elements/__elements/elements__nameOfPhoto.css");
-@import url("blocks/elements/__elements/elements__picture.css");
+@import url("./blocks/card-container/card-container.css");
+
+@import url("./blocks/card/card.css");
+@import url("./blocks/card/__photo/card__photo.css");
+@import url("./blocks/card/__name/card__name.css");
+@import url("./blocks/card/__like/card__like.css");
+@import url("./blocks/card/__like/_active/card__like_active.css");
+@import url("./blocks/card/__delete/card__delete.css");
+
+@import url("./blocks/open-card/open-card.css");
+@import url("./blocks/open-card/__body/open-card__body.css");
+@import url("./blocks/open-card/__closer/open-card__closer.css");
+@import url("./blocks/open-card/__photo/open-card__photo.css");
+@import url("./blocks/open-card/__name/open-card__name.css");
 
 @import url("./blocks/footer/footer.css");
-@import url("./blocks/footer/__footerText/footer__footerText.css");
