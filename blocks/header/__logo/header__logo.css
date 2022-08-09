@@ -2,6 +2,13 @@
     height: auto;
     width: max(104px, 33vw);
     margin: 28px 0 0 27px;
+    max-width: 160px;
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .header__logo {
+        width: 152px;
+    }
 }
 
 @media (min-width: 1200px) {

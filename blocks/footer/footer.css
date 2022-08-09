@@ -2,8 +2,20 @@
     font-weight: 400;
     color: #545454;
     font-size: 14px;
-    width: 282px;
+    width: max(282px, 75vw);
     margin: 20px auto;
+}
+
+@media (min-width: 576px) and (max-width: 650px) {
+    .footer {
+        width: 400px;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 768px) {
+    .footer {
+        width: 581px;
+    }
 }
 
 @media (min-width: 1200px) {

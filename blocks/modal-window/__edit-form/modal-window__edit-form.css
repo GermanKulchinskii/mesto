@@ -4,11 +4,15 @@
     margin: 0;
     width: 100%;
     height: 90%;
+    max-width: 355px;
+    max-height: 405px;
 }
 
 @media (min-width: 1200px) {
     .modal-window__edit-form {
         height: 330px;
         width: 430px;
+        max-width: none;
+        max-height: none;
     }
 }

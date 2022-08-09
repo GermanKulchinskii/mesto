@@ -9,6 +9,13 @@
     display: block;
 }
 
+@media (min-width: 576px) and (max-width: 991px) {
+    .profile__add-button {
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+}
+
 @media (min-width: 1200px) {
     .profile__add-button {
         float: right;

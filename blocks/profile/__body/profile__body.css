@@ -5,6 +5,13 @@
     display: block;
 }
 
+@media (min-width: 576px) and (max-width: 991px) {
+    .profile__body {
+        max-width: 536px;
+        max-height: 440px;
+    }
+}
+
 @media (min-width: 1200px) {
     .profile__body {
         width: 880px;

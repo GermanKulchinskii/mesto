@@ -11,6 +11,12 @@
     padding: 0;
 }
 
+@media (min-width: 420px) {
+    .modal-window__submit-button {
+        margin-top: 18%;
+    }
+}
+
 @media (min-width: 1200px) {
     .modal-window__submit-button {
         font-size: 18px;

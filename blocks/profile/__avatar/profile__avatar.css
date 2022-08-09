@@ -4,6 +4,12 @@
     margin: 0 auto;
 }
 
+@media (min-width: 576px) and (max-width: 991px) {
+    .profile__avatar {
+        max-width: 225px;
+    }
+}
+
 @media (min-width: 1200px) {
     .profile__avatar {
         height: 120px;
