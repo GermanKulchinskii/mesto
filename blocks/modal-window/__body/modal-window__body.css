@@ -1,0 +1,19 @@
+.modal-window__body {
+    height: max(358px, 95vw);
+    width: max(282px, 75vw);
+    margin-bottom: 2vh;
+    max-width: 355px;
+    max-height: 450px;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .modal-window__body {
+        height: 370px;
+        width: 430px;
+        margin-bottom: 2vh;
+        max-width: none;
+        max-height: none;
+        position: static;
+    }
+}

@@ -1,0 +1,24 @@
+.open-card__closer {
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    top: -36px;
+    right: 0;
+}
+
+@media (min-width: 992px) {
+    .open-card__closer {
+        float: right;
+        width: 32px;
+        height: 32px;
+        top: -40px;
+        right: -40px;
+    }
+}
+
+.open-card__closer:hover {
+    opacity: 0.5;
+}

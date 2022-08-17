@@ -1,19 +1,27 @@
 .footer {
-    width: max(282px, 88.125vw);
-    margin: 0 auto;
-    padding-bottom: 2vw;
+    font-weight: 400;
+    color: #545454;
+    font-size: 14px;
+    width: max(282px, 75vw);
+    margin: 20px auto;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 576px) and (max-width: 650px) {
     .footer {
-        width: 42.65rem;
-        margin: 2rem auto 0 auto;
+        width: 400px;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 651px) and (max-width: 991px) {
     .footer {
+        width: 581px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        font-size: 18px;
         width: 880px;
-        margin: 2rem auto 0 auto;
+        margin: 20px auto;
     }
 }

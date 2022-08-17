@@ -1,0 +1,26 @@
+.profile__info {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-align: center;
+    margin: max(26px, 7vw) auto 0;
+    justify-content: center;
+    width: 100%;
+    min-width: 282px;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .profile__info {
+        margin-top: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+    .profile__info {
+        float: left;
+        max-width: 500px;
+        height: 100%;
+        margin: 0;
+    }
+}
